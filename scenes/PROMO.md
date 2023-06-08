@@ -6,7 +6,7 @@
 
 (...51)
 
-[PLAY!](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[IGRAJ!](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 
 # intro-start
 
@@ -14,13 +14,13 @@
 
 `clearText()`
 
-n3: So before we start, how would *you* like to read?
+n3: Pre nego što krenemo, kako bi *ti* hteo/la da čitaš?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Now, let's begin our story...
+n3: Sad, nek priča počne...
 
 ```
 publish("hide_tabs");
@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: OVO JE OSOBA
 
 (...600)
 
