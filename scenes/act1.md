@@ -48,7 +48,7 @@ b: Osobo! Slušaj, u opasnosti smo! Igrač...
 
 [...neće naći alternativni kraj!](#act1_replay_alternate)
 
-[...će dobiti ludonarativnu disonancu!](#act1_replay_dissonance)
+[...će uvideti ludonarativnu disonancu!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: ISKORIŠĆEN JE *STRAH OD NEVOLJENOSTI*
 
 (#act1b)
 
@@ -271,27 +271,27 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
+b: Izvuci svoj laptop i počni sa poslom odmah!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: Ovaj, ne želim mrvice u svojoj tastat--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: Ako ne doprinosimo društvenom telu onda smo društveni paraziti!
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
+b: Društveno telo će otići kod društvenog doktora po lekove koji će ubiti njegove društvene parazite i onda ćemo--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: UMRETIIIIIIIIIIIIII
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
+n: ISKORIŠĆEN JE *STRAH DA SI LOŠA OSOBA*
 
 (#act1b)
 
@@ -315,18 +315,18 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Have those studies been replicat--
+h: Da li su ta istraživanja pokaz--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike our blood sugar so they'll have to amputate all our limbs and then we'll-
+b: Prerađena pšenica će pojačati šećer u našoj krvi pa će morati da nam amputiraju udove i onda ćemo-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: UMRETIIIIIIIIIII
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,37 +339,37 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: ISKORIŠĆEN JE *STRAH OD POVREĐIVANJA*
 
 (#act1b)
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: VRLO JE EFEKTIVNO
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!
+b: Vidiš, osobo? Ja sam tvoj verni vuk-čuvar!
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!
+b: Veruj svojim instinktima! Tvoja osećanja su uvek validna!
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
+n: SMANJI ENERGIJU SVOJE OSOBE DO NULE
 
-n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: DA SAČUVAŠ NJIHOVE FIZIČKE + SOCIJALNE + MORALNE POTREBE, MOŽEŠ DA KORISTIŠ:
 
-n: FEAR OF *BEING HARMED* #harm#
+n: STRAH OD *POVREĐIVANJA* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: STRAH OD *NEVOLJENOSTI* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
+n: I STRAH *DA SI LOŠA OSOBA* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)
+n4: (SAVET: BIRAJ IZBORE KOJI POGAĐAJU TVOJE NAJDUBLJE, NAJMRAČNIJE STRAHOVE!~)
 
 h: ...
 
@@ -383,18 +383,18 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.
+h: znaš šta vreme je da pogledam u telefon.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTECT YOUR HUMAN
+n: SAČUVAJ SVOJU OSOBU
 
-n: FROM THE WORLD. FROM OTHER PEOPLE. FROM THEMSELF.
+n: OD SVETA. OD DRUGIH LJUDI. OD NJIH SAMIH.
 
-n: GOOD LUCK
+n: SREĆNO
 
 (...500)
 
@@ -408,38 +408,38 @@ n: GOOD LUCK
 
 `music('battle', {volume:0.5})`
 
-n: ROUND ONE: *FIGHT!*
+n: PRVA RUNDA: *BORBA!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Facebook feed says there's a party happening this weekend.
+h: Ha. Fid na Fejsu kaže da se dešava žurka ovog vikenda.
 
 `bb({eyes:"uncertain"});`
 
-b: Doesn't that weirdo throw a party *every* weekend?
+b: Zar taj čudak ne održava žurke *svakog* vikenda?
 
 `bb({eyes:"uncertain_right"});`
 
-b: What inner void are they trying to fill? They must be deeply messed up inside!
+b: Koju unutrašnju prazninu pokušavaju da popune! Mora da su duboko zeznuti iznutra!
 
 `hong({eyes:"surprise"});`
 
-h: Also, I got an invite?
+h: Takođe, dobila sam poziv?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Well then!
+b: Pa onda!
 
-[Say yes, or we'll die from loneliness!](#act1c_loner)
+[Reci da, ili ćemo umreti od usamljenosti!](#act1c_loner)
 
-[Say no, it's full of poisonous drugs!](#act1c_drugs)
+[Reci ne, žurke su pune droga!](#act1c_drugs)
 
-[Ignore it, we just make parties sad.](#act1c_sad)
+[Ignoriši poziv, samo upropaštavamo žurke.](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Fifteen cigarettes a day, human! Fifteen!
+b: Petnaest cigareta na dan, osobo! Petnaest!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -447,11 +447,11 @@ b: Fifteen cigarettes a day, human! Fifteen!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Then no one will show up at our funeral, they'll dump our ashes into the ocean, we get eaten by a whale,
+b: Onda se niko neće pojaviti na našoj sahrani, baciće naš pepeo u okean, poješće nas kit,
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: and we become WHALE POOP!
+b: i postaćemo KITOV IZMET!
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -468,25 +468,25 @@ attack("18p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: So yeah we should go to that party!
+b: Tako da treba da idemo na žurku!
 {{/if}}
 
 {{if _.parasite}}
-b: Just bring the laptop so we can do work, and not be a society-parasite.
+b: Samo ponesi svoj laptop da možemo da radimo, i ne budemo socijalni parazit.
 {{/if}}
 
 {{if _.whitebread}}
-b: Just as long as they don't serve WHITE BREAD
+b: Sve je okej dok ne služe BELI HLEB
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: GOSPODE. Ako ćeš ućutati, u redu.
 
-h: I'll say yes.
+h: Reći ću da.
 
 {{if _.whalepoop}}
-b: Whale poop, human! Whale poop!
+b: Kitovski izmet, osobo! Kitovski izmet!
 {{/if}}
 
 `_.partyinvite="yes"`
@@ -498,7 +498,7 @@ b: Whale poop, human! Whale poop!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: or even worse... WHITE BREAD
+b: ili još gore... BELOG HLEBA
 {{/if}}
 
 {{if _.whitebread}}
@@ -506,11 +506,11 @@ b: or even worse... WHITE BREAD
 {{/if}}
 
 {{if _.whitebread}}
-b: We'll overdose on so much meth and white bread they won't be able to fit our fat corpse into the cremation furnace!
+b: Toliko ćemo se predozirati na metamfetaminu i belom hlebu da neće moći da stave naš debeli leš u peć za kremiranje!
 {{/if}}
 
 {{if !_.whitebread}}
-b: We'll overdose on so many drugs the undertaker will wonder how our body was *already* pre-embalmed!
+b: Toliko ćemo se predozirati da će se pogrebnik pitati kako je moguće da je naše telo *već* pre-balsamovano!
 {{/if}}
 
 ```
@@ -521,14 +521,14 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: Besides, can't party, we need to do work or we're a terrible society-parasite!
+b: Pored toga, ne možemo da se zabavljamo, moramo da radimo ili smo užasan socijalni parazit!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: GOSPODE. Ako ćeš da ućutiš, u redu.
 
-h: I'll say no.
+h: Reći ću ne.
 
 `_.partyinvite="no"`
 
@@ -541,15 +541,15 @@ h: I'll say no.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: All we ever do is cry in a corner about how loneliness is as deadly as 15 cigarettes a day.
+b: Sve što mi ikada radimo je da plačemo o tome kako je usamljenost smrtonosna koliko i 15 cigareta na dan.
 {{/if}}
 
 {{if _.parasite}}
-b: All we ever do at parties is worry about how we should be productive instead.
+b: Sve što mi ikada radimo na žurkama je da brinemo o tome što treba da budemo produktivni.
 {{/if}}
 
 {{if _.whitebread}}
-b: All we ever do is worry about how the unhealthy food options are going to kill us.
+b: Sve što mi ikada radimo je da brinemo o tome kako će nas nezdrava hrana ubiti.
 {{/if}}
 
 ```
@@ -557,19 +557,19 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: gee i wonder why.
+h: pa pitam se zašto.
 
 `hong({eyes:"neutral"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: So if we go we'll make them feel bad, but if we reject their invite we'll also make them feel bad!
+b: Ako odemo učinićemo da se osećaju loše, ali ako odbijemo takođe ćemo učiniti da se osećaju loše!
 
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: ALL WE DO IS MAKE PEOPLE FEEL BAD, SO WE SHOULD FEEL BAD
+b: SVE ŠTO MI IKADA RADIMO JE DA ČINIMO LJUDE DA SE OSEĆAJU LOŠE, PA TREBA DA SE OSEĆAMO LOŠE
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -580,9 +580,9 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. If it'll make you shut up, fine.
+h: Uh. Ako ćeš da ućutiš, u redu.
 
-h: I'll ignore the invite.
+h: Ignorisaću poziv.
 
 `_.partyinvite="ignore"`
 
@@ -595,19 +595,19 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Anyway. Facebook's too much. I need something calmer, less anxiety-producing.
+h: Svejedno. Fejs je previše. Treba mi nešto smirenije, nešto sa manje anksioznosti.
 
 `hong({eyes:"neutral"});`
 
-h: What's new on Twitter?
+h: Šta je novo na Tviteru?
 
 `bb({eyes:"look"});`
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[O ne, pogledaj te užasne vesti!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[O ne, da li je taj tvit potajno o *nama*?](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[Hej, GIF mačke koja pije mleko](#act1d_milk)
 
 
 # act1d_news
@@ -617,14 +617,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: God, it feels like the world's burning, isn't it?
+b: Čoveče, čini se kao da svet gori, zar ne?
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: It feels like it's all ending, like everything's dying and we're doomed and there's nothing we can do about it.
+b: Čini se kao da se sve završava, kao da sve umire i osuđeni smo na propast i ne možemo ništa da uradimo.
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -635,7 +635,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Let's retweet that story!
+b: Hajde da retvitujemo to!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -653,11 +653,11 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Okay I'll retweet it just please be quiet!
+h: Okej retvitovaću samo molim te ćuti!
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
-h: Screw it, let's look at Snapchat.
+h: Kako god, hajde da vidimo Snepčet.
 
 (#act1e)
 
@@ -666,35 +666,35 @@ h: Screw it, let's look at Snapchat.
 
 `bb({eyes:"fear"});`
 
-b: It's a subtweet! A sneaky, sneaky subtweet!
+b: To je sabtvit! Lukavi, lukavi sabtvit!
 
 `hong({eyes:"annoyed"});`
 
-h: It's probably not?
+h: Verovatno nije?
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but what if they're all talking behind our back
+b: ali šta ako svi oni pričaju nama iza leđa
 
-h: They're n--
+h: Oni su bl--
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
-b: IN FRONT OF OUR BACK
+b: ISPRED NAŠIH LEĐA
 
 `hong({eyes:"sad", mouth:"sad"});`
 
-h: I d--
+h: Ja sumnj--
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but *what if*
+b: ali *šta ako*
 
 h: S--
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: *what if*
+b: *šta ako*
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -719,7 +719,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: o-KEJ, probaću Snepčet.
 
 (#act1e)
 
@@ -727,7 +727,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Heh ya that's cute, just retweeted it, I thi--
+h: Hah da to je slatko, upravo sam retvitovala, misl--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -735,7 +735,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: MAČKE NE VARE MLEKO I MI SMO UŽASNI ŠTO UŽIVAMO U ZLOSTAVLJANJU ŽIVOTINJA
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
