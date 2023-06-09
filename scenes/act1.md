@@ -752,7 +752,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: o-KEJ, probaću Snepčet.
 
 (#act1e)
 
@@ -760,7 +760,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: Huh, photos from yesterday night. So *that's* what those weekly parties are like.
+h: Ah, slike od juče uveče. Znači *tako* izgledaju te žurke.
 
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
@@ -772,29 +772,29 @@ h: Huh, photos from yesterday night. So *that's* what those weekly parties are l
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Oof, looks way too crowded for my anxiety.
+h: Uuh, prevelika je gužva za moju anskioznost.
 
-h: Maybe I shouldn't have said yes to the invite?
+h: Možda nisam trebala da prihvatim poziv?
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Change our answer? Like a jerk?!](#act1e_yes_dontchange)
+[Da promenimo odgovor? Kao kreten?!](#act1e_yes_dontchange)
 
-[Change our answer! It's too crowded!](#act1e_yes_changetono)
+[Hajde da promenimo odgovor! Prevelika je gužva!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[Da definitivno su nas sabtvitovali.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Čekaj retvitovali smo bez provere informacija.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Znaš li da imaš jako kriva leđa?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
@@ -804,14 +804,14 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: They were counting on us to come and now we're betraying their trust? Do you wanna die alone?!
+b: Računali su na nas a sada izdajemo njihovo poverenje? Da li želiš da umreš sama?!
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: PETNAEST. CIGARETA.
 {{/if}}
 
 {{if _.whalepoop}}
-b: WHALE. POOP.
+b: KITOV. IZMET.
 {{/if}}
 
 ```
@@ -826,7 +826,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as yes!
+h: Umukni umukni neću menjati odgovor!
 
 (#act1f)
 
@@ -837,7 +837,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Don't you know about human stampedes?
+b: Zar nisi čula za ljudske stampedoe?
 
 ```
 bb({body:"fear", mouth:"small", eyes:"narrow"});
@@ -845,7 +845,7 @@ hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: In 2003 a Rhode Island nightclub had a fire and the panic made people jam the exits so 100 people burned to death-
+b: 2003 godine desio se požar u noćnom klubu u Rod Ajlandu i ljudi su zbog panike zaglavili izlaz pa je 100 ljudi izgorelo na smrt-
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -853,14 +853,14 @@ hong({mouth:"shock"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DO YOU WANT THAT TO HAPPEN TO US-
+b: DA LI HOĆEŠ DA SE TO DESI NAMA-
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY N-
+b: RECI NE RECI NE RECI NE RECI NE RECI NE RECI NE RECI NE RECI-
 
 
 ```
@@ -876,7 +876,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to no! God!
+h: Umukni umukni promeniću odgovor! Gospode!
 
 (#act1f)
 
@@ -884,35 +884,35 @@ h: Shut up shut up I'll change my answer to no! God!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Hm... to izgleda zabavno.
 
-h: Maybe I shouldn't have said no to the invite?
+h: Možda nisam trebala da odbijem poziv?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Change our answer? Like a jerk?!](#act1e_no_dontchange)
+[Da promenimo odgovor? Kao kreten?!](#act1e_no_dontchange)
 
-[Change our answer! Don't die alone!](#act1e_no_changetoyes)
+[Hajde da promenimo odgovor! Nećemo da umremo usamljeni!](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[Da definitivno su nas sabtvitovali.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Čekaj retvitovali smo bez provere informacija.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Znaš li koliko su ti kriva leđa?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_no_dontchange
 
 `bb({eyes:"anger"})`
 
-b: Everybody was counting on us!
+b: Svi su računali na nas!
 
-b: ...to leave them alone and let them have a nice party without a horrible disgusting {{if _.whitebread}}white-bread-munching{{/if}} creep like u--
+b: ...da ih ostavimo na miru i pustimo ih da se provedu bez užasnog odvratnog {{if _.whitebread}}white-bread-munching{{/if}} čudaka poput tebe--
 
 
 ```
@@ -928,7 +928,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as no!
+h: Umukni neću menjati odgovor!
 
 (#act1f)
 
@@ -939,7 +939,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Chronic loneliness increases our cortisol levels as well as risk for cardiovascular disease and stroke!
+b: Hronična usamljenost povećava naš nivo kortizola i rizik za kardiovaskularnu bolest i infarkt!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -949,7 +949,7 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: PETNAEST. CIGARETA.
 {{/if}}
 
 ```
@@ -958,7 +958,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to yes! God!
+h: Umukni umukni promeniću moj odgovor! Gospode!
 
 (#act1f)
 
@@ -969,14 +969,14 @@ bb({eyes:"fear", mouth:"small"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: All our problematic tweets have come back to roost!
+b: Svi naši problematični tvitovi dovešće nas u problem!
 
 ```
 bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: We're gonna get called out and cancelled and dragged with a rope on horseback down the information superhighway!
+b:Prozivaće nas i cancelovati i vući konopcem na konju niz informacioni superautoput!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -991,7 +991,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Zašto si ovakav?!
 
 (#act1f)
 
@@ -1002,14 +1002,14 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're spreading disinformation! We're destroying trust in a free press!
+b: Širimo dezinfromacije! Rušimo poverenje u slobodne medije!
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're the reason fascism will arise from the rubble of democracy!
+b: Mi smo razlog što će se fašizam preporoditi iz slomljene demokratije!
 
 ```
 bb({body:"normal", eyes:"anger"});
@@ -1025,7 +1025,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 _.factcheck = true;
 ```
 
-h: Why are you like this?!
+h: Zašto si ovakav?!
 
 (#act1f)
 
@@ -1036,13 +1036,13 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do you want to have a pretzel for a spine?! Stop hunching over your screen!
+b: Hoćeš da ti kičma bude kao kifla? Prestani da se grbiš!
 
 ```
 bb({body:"meta"});
 ```
 
-b: That means you too.
+b: Ti takođe.
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1058,7 +1058,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Zašto si ovakav?!
 
 (#act1f)
 
@@ -1066,27 +1066,27 @@ h: Why are you like this?!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Hm... to izgleda baš zabavno.
 
-h: Maybe I shouldn't have ignored the invite?
+h: Možda ne treba da ignorišem poziv?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Keep ignoring, we're still party poopers.](#act1e_ignore_continue)
+[Ma samo ignoriši, još uvek smo parti-brejkeri.](#act1e_ignore_continue)
 
-[Actually, say yes.](#act1e_ignore_changetoyes)
+[Zapravo, reci da.](#act1e_ignore_changetoyes)
 
-[Actually, say no.](#act1e_ignore_changetono)
+[Zapravo, reci ne.](#act1e_ignore_changetono)
 
 # act1e_ignore_continue
 
 `hong({eyes:"annoyed"});`
 
-h: It's kinda rude to keep ignoring them though, no?
+h: Nekako je bezobrazno da ih ignorišemo, zar ne?
 
 `bb({eyes:"normal_right"});`
 
-b: Well other people always ignore *us*, so
+b: Mislim odstali ljudi uvek ignorišu *nas*, pa
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1097,7 +1097,7 @@ attack("18p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: so let's just call it even.
+b: pa sad ste kvit.
 
 (#act1f)
 
@@ -1105,9 +1105,9 @@ b: so let's just call it even.
 
 `hong({eyes:"surprise", mouth:"smile"});`
 
-h: You're... letting me have fun?
+h: Ti me... puštaš da se zabavim?
 
-b: Well, I mean, loneliness *can* kill us.
+b: Pa, mislim, usamljenost *može* da nas ubije.
 
 `hong({eyes:"neutral", mouth:"neutral"});`
 
@@ -1117,7 +1117,7 @@ b: Well, I mean, loneliness *can* kill us.
 
 `bb({eyes:"narrow"});`
 
-b: It's too crowded. Crowds are dangerous.
+b: Prevelika je gužva. Gužve su opasne.
 
 (#act1e_yes_changetono)
 
@@ -1129,60 +1129,60 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Whatever. New Tinder notification.
+h: Kako god. Nova Tinder notifikacija.
 
 `bb({eyes:"uncertain"})`
 
-b: What, that hookup app?
+b: Šta, ta aplikacija za kombinacije?
 
 `hong({eyes:"annoyed"})`
 
-h: It's not a hookup app, it's just a way to meet new peopl--
+h: Nije to aplikacija za kombinacije, to je način da upoznaš nove lj--
 
 `bb({eyes:"narrow"})`
 
-b: It's a hookup app.
+b: To je aplikacija za kombinacije.
 
 ```
 hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: Oh, I got a match! They look cute!
+h: O, imam podudaranje! Slatki su!
 
 ```
 bb({eyes:"narrow_eyebrow"});
 hong({eyes:"sad", mouth:"anger"})
 ```
 
-h: Please don't ruin this for m--
+h: Molim te nemoj i ovo da un--
 
 ```
 bb({body:"panic"});
 Game.OVERRIDE_TEXT_SPEED = 2.0;
 ```
 
-b: DANGER DANGER DANGER DANGER DANGER DANGER
+b: OPASNOST OPASNOST OPASNOST OPASNOST OPASNOST
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
-[We're being *used* by other people.](#act1f_used_by_others)
+[Drugi ljudi nas *iskorišćavaju*.](#act1f_used_by_others)
 
-[We're just *using* other people.](#act1f_using_others)
+[Mi *iskorišćavamo* druge ljude.](#act1f_using_others)
 
-[YOUR MATCH IS A SERIAL KILLER](#act1f_killer)
+[TAJ LIK JE SERIJSKI UBICA](#act1f_killer)
 
 # act1f_used_by_others
 
 `bb({body:"point_crotch", eyes:"normal", mouth:"normal"})`
 
-b: Random hookups may be able to fill the hole down there,
+b: Kombinacije možda mogu da popune rupu dole,
 
-b: but they can never fill the hole...
+b: ali nikada neće moći da popune rupu...
 
 `bb({body:"point_heart", eyes:"pretty", mouth:"small"})`
 
-b: in *here*.
+b: *ovde*.
 
 (...1000)
 
@@ -1191,7 +1191,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is WE'RE GOING TO DIE ALONE
+b: Poenta je DA ĆEMO DA UMREMO SAMI
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1208,7 +1208,7 @@ attack("18p", "alone");
 
 `bb({eyes:"narrow", mouth:"small"})`
 
-b: You think other people's genitals are Pokémon for us to collect?
+b: Miliš li da su genitalije drugih ljudi Pokemoni da ih mi sakupljamo?
 
 ```
 bb({body:"sing", eyes:"pretty", mouth:"shut"});
@@ -1231,7 +1231,7 @@ bb({mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2400;
 ```
 
-b: ♫ I wanna be, the ^slut^ti-est-
+b: ♫ Želim da budem, naj^kurvas^tiji-
 
 (...500)
 
@@ -1240,7 +1240,7 @@ bb({eyes:"narrow", mouth:"small"});
 Game.FORCE_TEXT_DURATION = 2100;
 ```
 
-b: ♫ Like no one ever was-
+b: ♫ Kao niko pre mene-
 
 (...1500)
 
@@ -1249,7 +1249,7 @@ bb({eyes:"pretty"});
 Game.FORCE_TEXT_DURATION = 2300;
 ```
 
-b: ♫ Thighs n' ^ass^, voluptuous breast-
+b: ♫ Butine i ^dupe^, sladostrasne grudi-
 
 (...500)
 
@@ -1258,7 +1258,7 @@ bb({eyes:"fear", mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2000;
 ```
 
-b: ♫ with sweaty ^dick^ and balls!-
+b: ♫ sa znojavim ^kurcem^ i jajima!-
 
 (...1000)
 
@@ -1267,7 +1267,7 @@ bb({eyes:"smile", mouth:"smile"});
 Game.FORCE_TEXT_DURATION = 1000;
 ```
 
-b: ♫ PERVY-MON! GOTTA CA-
+b: ♫ PERVO-MON! MORAM IH SVE-
 
 ```
 Game.FORCE_CANT_SKIP = false;
@@ -1277,7 +1277,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is we're a manipulative creep.
+b: Poenta je da smo mi manipulativni čudak.
 
 ```
 hong({mouth:"shock", eyes:"shock"});
