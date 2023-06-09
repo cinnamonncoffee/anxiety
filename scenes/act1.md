@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: A OVO JE NJENA ANKSIOZNOST
 
-n: _YOU_ ARE THE ANXIETY
+n: _TI_ SI ANKSIOZNOST
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: Ej! Ponovo smo ovde?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: TVOJ POSAO JE DA ŠTITIŠ SVOJU OSOBU OD *OPASNOSTI*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: U STVARI, PONOVNO IGRANJE JE DOVODI U *OPASNOST* BAŠ SADA
 
-n: QUICK, WARN THEM!
+n: BRZO, UPOZORI IH!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: Osobo! Slušaj, u opasnosti smo! Igrač...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...će da nas muči ponovo!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...neće naći alternativni kraj!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...će dobiti ludonarativnu disonancu!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: Nateraće nas da se sklupčamo u loptu i plačemo!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: Nateraće nas da ubijemo tvoj telefon jer nam je dao napad panike!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: Nateraće nas da *NE* udarimo domaćina žurke!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: Nateraće nas da udarimo Simpatičnog Anti-Zlikovca domaćina žurke!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: Bar nećemo skočiti sa krova ovog pu--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: NATERAĆE NAS DA SKOČIMO SA KROVA.
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: DESIĆE NAM SE SVE OVE UŽASNE NOVE STVARI, I ONDA ĆEMO--
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Dobro, priča kao *priča* je ista, ali svako poglavlje ima dva moguća završetka, plus sve opcije dijaloga--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: Igrač će biti razočaran, zatvori ovaj prozor, izbriši nam softver, i onda ćemo--
 
 (#act1_replay_end)
 
@@ -112,27 +112,27 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: Ludo-šta?
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: Poenta priče bila je da možeš da *IZABEREŠ* da izgradiš zdrav odnos sa svojim strahom,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: Ali igranjem igrice ispočetka dobićeš istu priču, što govori da tvoji *IZBORI* nisu važni,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: A to prikazuje kontradikciju između poente igre i njene mehanike,
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: A to otkriva realnost ovog narativnog univerzuma,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: A onda ćemo--
 
 (#act1_replay_end)
 
@@ -141,7 +141,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: UMRETIIIIII
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: Okej uživimo se u likove ponovo.
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (PUSTI _SVOJU_ ANKSIOZNOST BLA BLA BLA NAJSLIČNIJE _SVOM_ STRAHU BLA BLA SVE VEĆ ZNAŠ)
 
 ```
 sfx("squeak");
@@ -186,17 +186,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: O dobro je, moj vuk se vratio. Faaaaantastično.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: TVOJ POSAO JE DA ČUVAŠ SVOJU OSOBU OD *OPASNOSTI*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: U STVARI, TAJ SENDVIČ IH STAVLJA U *OPASNOST* BAŠ SADA
 
-n: QUICK, WARN THEM!
+n: BRZO, UPOZORI IH!
 
 ```
 sfx("squeak");
@@ -204,21 +204,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: Osobo! Slušaj, u opasnosti smo! Opasnost je...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (PUSTI _TVOJU_ ANKSIOZNOST DA DOĐE DO IZRAŽAJA! IZABERI ONO ŠTO JE NAJSLIČNIJE _TVOM_ STRAHU)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Jedemo sami na pauzi! Ponovo!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Nismo produktivni dok jedemo!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Taj beli hleb nije dobar za nas!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: Znaš li da je usamljenost povezana sa preranom smrću koliko i pušenje 15 cigareta na dan?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,17 +237,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Ovaj, hvala za citiranje izvora ali--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: Što znači da ako se ne družimo sa nekim *sada* mi ćemo-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: UMRETIIIIIIIIIIII
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
