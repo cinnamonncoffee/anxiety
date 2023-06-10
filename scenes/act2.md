@@ -358,27 +358,27 @@ b: Kad se sve završi, šta važno uopšte možemo uraditi?
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Doprineti čovečanstvu? All great works Elaborate on this thesis.. Love? Death will always do it part.
+b: Doprineti čovečanstvu? Sva velika dela propadaju put Ozimandije. Ljubav? Smrt će uvek uraditi ono što mora.
 
 `bb({eyes:"sad_r"})`
 
-b: And how much death there is! *We* will die. *Our loved ones* will die.
+b: I koliko samo smrti ima! *Mi* ćemo umreti. *Oni koje volimo* će umreti.
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Heck, the Second Law of Thermodynamics means even our *universe* will die!
+b: Mislim, Drugi Zakon Termodinamike znači da će čak i naš *univerzum* umreti!
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Oh, "death makes us appreciate life"? That's like saying slavery is good because it makes us appreciate freedom!
+b: O, "zbog smrti cenimo život"? To je kao da kažeš da je ropstvo dobro jer zbog njega cenimo slobodu!
 
 `bb({body:"one_up"})`
 
-b: Oh, "you need to make your own meaning"? That's what cultists and conspiracy theorists do!
+b: O, "treba da nađeš svoj sopstveni smisao"? To rade kultisti i teoretičari zavera!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Life has no meaning, death has no meaning, even *meaning* has no meaning! What is a mortal soul supposed to--
+b: Život nema smisao, smrt nema smisao, čak ni *smisao* nema smisao! Šta smrtna duša treba da--
 
 ```
 _.a2_first_danger = 'meaning';
@@ -395,7 +395,7 @@ b: ...
 
 `bb({eyes:"suspect"})`
 
-b: Um... can you hear me, human?
+b: Ovaj... čuješ li me, osobo?
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
@@ -403,23 +403,23 @@ b: ...
 
 `bb({eyes:"shock", mouth:"small_talk", body:"chest", MOUTH_LOCK:true})`
 
-b: *GASP*
+b: *HA*
 
 `bb({mouth:"small_talk"})`
 
-b: I MUST WARN YOU ABOUT...
+b: MORAM DA TE UPOZORIM O...
 
-[*More* of the same danger!](#act2b_louder)
+[*Još* takve opasnosti!](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2b_different_social)
+[*Drugačijoj* socijalnoj opasnosti!](#act2b_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2b_different_moral)
+[*Drugačijoj* moralnoj opasnosti!](#act2b_different_moral)
 {{/if}}
 
-[You're ignoring danger! That's dangerous!](#act2b_ignore)
+[Ignorišeš opasnost! To je opasno!](#act2b_ignore)
 
 # act2b_louder
 
@@ -441,13 +441,13 @@ b: I MUST WARN YOU ABOUT...
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: EMOTIONS ARE CONTAGIOUS! SO IF YOU DON'T LEAVE YOU'LL INFECT EVERYONE WITH YOUR MENTAL ILLNESS! 
+b: EMOCIJE SU ZARAZNE! AKO NE ODEŠ SVE ĆEŠ ZARAZITI SA SVOJOM MENTALNOM BOLEŠĆU! 
 
-b: You'll create a deadly outbreak of SAD LUMP SYNDROME
+b: Stvorićeš smrtonosnu pandemiju SINDROMA TUŽNE GRUDE
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
-b: We need to get out of here and quarantine ourselves forever in a small room with Netflix and food delivery!
+b: Moramo da odemo odavde i zatvorimo se u karantin u maloj sobi sa Netfliksom i dostavom!
 
 ```
 _.a2_second_danger = 'netflix';
@@ -461,7 +461,7 @@ _.a2_hoodie_callback = "a quarantine";
 
 `bb({eyes:"suspect", body:"two_up", mouth:"normal"})`
 
-b: DON'T BE A CREEP. IT'S AGAINST THE LAW!
+b: NEMOJ BITI ČUDAK. PROTIVZAKONITO JE!
 
 `bb({eyes:"judge", body:"judge_1", mouth:"normal"})`
 
@@ -486,11 +486,11 @@ sfx("gravel");
 
 (...501)
 
-b: Creep Law, Section 74.5: (1) Any Person who checks out (a) those muscular shoulders (b) that bubble booty (2) shall be hereby known as
+b: Zakon o Čudacima, Član 74.5: (1) Bilo koja Osoba koja bulji u (a) ta mišićava ramena (b) to definisano dupe (2) će nadalje biti poznata kao
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "A BIG DISGUSTING TRASH PERVERT"
+b: "VELIKI ODVRATNI SMEĆARSKI PERVEZNJAK"
 
 ```
 _.a2_second_danger = 'law';
@@ -504,23 +504,23 @@ _.a2_hoodie_callback = "the law";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Actually, even if you find a noble purpose in life, you can *still* mess everything up!
+b: Zapravo, čak i da nađeš plemenitu svrhu u životu, *još uvek* možeš sve da zezneš!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Alfred Nobel wanted world peace and for cultures to understand each other. So he decided to make travel easier.
+b: Alfred Nobel želeo je mir u svetu i da se kulture međusobno razumeju. Pa je odlučio da olakša putovanja.
 
 `bb({eyes:"normal_r"})`
 
-b: So he needed a way to cheaply create train tunnels. So he invented a new material called "dynamite"...
+b: Trebao mu je jeftiniji način za građenje tunela za vozove. Napravio je novi materijal "dinamit"...
 
 `bb({body:"one_up", eyes:"normal"})`
 
-b: which was used in World War I to KILL MILLIONS OF PEOPLE
+b: koji je u Prvom svetskom ratu korišćen za ubistvo MILIONA LJUDI
 
 `bb({body:"two_up", eyes:"shock"})`
 
-b: IT'S THE BUTTERFLY EFFECT, HUMAN! HOW MANY PEOPLE ARE YOU ACCIDENTALLY KILLING RIGHT NOW
+b: TO JE EFEKAT LEPTIRA, OSOBO! KOLIKO LJUDI TRENUTNO SLUČAJNO UBIJAŠ
 
 ```
 _.a2_second_danger = 'butterfly';
@@ -536,19 +536,19 @@ _.a2_hoodie_callback = "World War I";
 
 `bb({eyes:"normal_r", body:"point", mouth:"normal"})`
 
-b: Actually, you know what's worse than no-one liking you? *Everyone* liking you.
+b: Zapravo, znaš šta je gore od toga da te niko ne voli? da te *svi* vole.
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b: That is, becoming one of *these* pleasure-chasing party animals.
+b: To je to, postaješ jedna od *ovih* životinja gladnih za zabavom.
 
 `bb({body:"normal", mouth:"small"})`
 
-b: A shallow life with shallow friends who only know the shallow you!
+b: Površan život sa površnim prijateljima koji poznaju samo površnog tebe!
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: Human, we need to run away from these pleasure-zombies before they turn us into one of them!
+b: Osobo, moramo da bežimo od ovih zombija za zabave pre nego što nas pretvore u jednog od njih!
 
 ```
 _.a2_second_danger = 'zombies';
@@ -564,19 +564,19 @@ _.a2_hoodie_callback = "zombies";
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: People are dying in famines and genocides *right now* and we're just partying!
+b: Ljudi umiru od gladi i u genocidima *upravo sada*, a mi se zabavljamo!
 
 `bb({body:"point", eyes:"closed", mouth:"small"})`
 
-b: A wise person once said, "the only thing necessary for the triumph of evil is for good folks to do nothing."
+b: Mudra osoba je jednom rekla, "jedina stvar neophodna za pobedu zla je da dobar narod ne radi ništa."
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: WE'RE DOING NOTHING.
+b: MI NE RADIMO NIŠTA.
 
 `bb({mouth:"small"})`
 
-b: BY PARTYING, WE'RE HELPING *HITLER*.
+b: ZABAVLJANJEM POMAŽEMO *HITLERU*.
 
 ```
 _.a2_second_danger = 'hitler';
@@ -592,15 +592,15 @@ _.a2_hoodie_callback = "Hitler";
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: You think you're safe just because you took the batteries out of the carbon monoxide detector?
+b: Misliš li da si sigurna samo zato što si izvadila baterije iz detektora ugljenik monoksida?
 
 `bb({eyes:"suspect_r"})`
 
-b: You won't even smell the poison! You'll just get sleepy and then you'll--
+b: Nećeš ni namirisati otrov! Samo će ti se prispavati i onda ćeš--
 
 `bb({body:"scream_c_1"})`
 
-b: DIEEEEEEEEEEEEEEEEEE
+b: UMRETIIIIIIIIIIIIIII
 
 ```
 _.a2_second_danger = 'ignore';
@@ -621,29 +621,29 @@ b: ...
 
 `bb({eyes:"happy", mouth:"smile", body:"chest"})`
 
-b: Oh thank goodness human, I think you can hear me again!
+b: O, dobro je, osobo, mislim da me ponovo čuješ!
 
 `bb({eyes:"closed", body:"point"})`
 
-b: I SHALL WARN YOU ABOUT...
+b: UPOZORIĆU TE O...
 
 {{if _.a2_first_choice=="louder"}}
-[*Even more* of the same danger!](#act2c_louder)
+[*Još više* takve opasnosti!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_choice!="louder"}}
-[*More* of the same danger!](#act2c_louder)
+[*Još* takve opasnosti!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2c_different_social)
+[*Drugačijoj* socijalnoj opasnosti!](#act2c_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2c_different_moral)
+[*Drugačijoj* moralnoj opasnosti!](#act2c_different_moral)
 {{/if}}
 
-[Did you check that punch before drinking?](#act2c_punch)
+[Da li si proverila taj punč pre nego što si ga popila?](#act2c_punch)
 
 #act2c_louder
 
@@ -675,15 +675,15 @@ b: I SHALL WARN YOU ABOUT...
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: Actually, Netflix & food delivery isn't quarantined enough! We'd still infect the delivery person!
+b: U stvari, Netfliks i dostava nisu dovoljno izolovani! Još uvek ćemo zaraziti dostavljača!
 
 `bb({body:"one_up", mouth:"small"})`
 
-b: We need to move to the Canadian Yukon territories, and have our food delivered by drone!
+b: Moramo da se preselimo na teritoriju kanadskog Jukona i tražiti da nam dostave hranu dronom!
 
 `bb({body:"two_up", mouth:"normal"})`
 
-b: And then they'd have to sterilize the drone to rid it of our SAD LUMP GERMS
+b: I onda će morati da sterilišu dron da ga očiste od BAKTERIJA TUŽNE GRUDE
 
 `_.a2_attack_3 = "alone";`
 
@@ -716,13 +716,13 @@ sfx("gravel");
 
 (...501)
 
-b: The BIG DISGUSTING TRASH PERVERT shall be sentenced to 72 hours in one of those medieval public-humiliation devices
+b: VELIKI ODVRATNI SMEĆARSKI PERVEZNJAK biće osuđen na 72 sata u jednom od onih srednjovekovnih sprava za javno ponižavanje
 
-b: unless they're secretly *into* that sort of thing
+b: osim ako tajno *voli* takve stvari
 
 `bb({body:"scream_a_1"})`
 
-b: because they're a BIG DISGUSTING TRASH PERVERT
+b: zato što je VELIKI ODVRATNI SMEĆARSKI PERVEZNJAK
 
 `_.a2_attack_3 = "bad";`
 
@@ -734,19 +734,19 @@ b: because they're a BIG DISGUSTING TRASH PERVERT
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: BUTTERFLY EFFECT! You're using a non-biodegradable plastic cup?
+b: EFEKAT LEPTIRA! Ne koristiš biorazgradivu plastičnu čašu?
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: BAM, A LANDFILL LEAKS POISON AND KILLS A KID
+b: BAM, DEPONIJA ISPUSTI OTROV I UBIJE DETE
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: You're sweating and your heart's pounding?
+b: Znojiš se i srce ti lupa?
 
 `bb({body:"scream_a_1"})`
 
-b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
+b: BAM, BANKROTIRAŠ NAŠ ZDRAVSTVENI SISTEM I MILIONI UMRU
 
 `_.a2_attack_3 = "bad";`
 
