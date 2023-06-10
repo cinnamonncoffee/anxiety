@@ -786,7 +786,7 @@ b: Govoreći, *dobro je što je taj 'dobar narod' trošio vreme sa 'opuštanjem'
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
-b: *Now our plans can go fourth, reich on schedule!*
+b: *Gut, naši planovi se mogu nastaviti!*
 
 `_.a2_attack_3 = "bad";`
 
@@ -798,15 +798,15 @@ b: *Now our plans can go fourth, reich on schedule!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"})`
 
-b: Come to think about it, do we know if this building *has* a monoxide detector?!
+b: Kad bolje razmislim, da li zasigurno znamo da ova zgrada *ima* detektor monoksida?!
 
 `bb({body:"two_up", mouth:"small", eyes:"normal"})`
 
-b: What if we're all being poisoned *RIGHT NOW?*
+b: Šta ako se svi trujemo *UPRAVO SADA?*
 
 `bb({body:"scream_a_1"})`
 
-b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER AND EV--
+b: NE BISMO NI PRIMETILI DA SE SMRT PRIBLIŽAVA. SAMO BISMO NESTALI ZAUVEK ZAUVEK ZAU-
 
 `_.a2_attack_3 = "harm";`
 
@@ -818,15 +818,15 @@ b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER
 
 `bb({body:"normal", mouth:"normal", eyes:"sad"})`
 
-b: What if we're just *fundamentally incapable* of ever being loved, or loving another?
+b: Šta ako je *u potpunosti nemoguće* da nas iko ikada voli, ili da mi volimo nekoga?
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if something irreversibly broke inside of us a long time ago? Or never existed in us in the first place?
+b: Šta ako je nešto u nama još odavno nepovratno izgubljeno? Ili jednostavno nikada nije ni postojalo?
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: AAA MI SMO UNIŠTENI! SKROZ SLOMLJENI SKROZ SLOMLJ-
 
 `_.a2_attack_3 = "alone";`
 
@@ -836,19 +836,19 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: What if we're just *fundamentally rotten?*
+b: Šta ako smo jednostavno *nepopravljivo pokvareni?*
 
 `bb({body:"one_up", eyes:"sad"})`
 
-b: Others have an inner drive to do goodness, but we only do "good" out of guilt or shame, if at all.
+b: Ostale psiha vuče da čine dobro, ali jedino "dobro" koje mi pronalazimo je krivica ili stid.
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if it's in our nature to hurt others? What if we can't be anything *other* than a burden to those close to us?
+b: Šta je u našoj prirodi ako želimo da povređujemo druge? Šta ako nemožemo biti bilo šta drugo sem *tereta* našim najbližima?
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: AAA MI SMO UNIŠTENI! SKROZ SLOMLJENI SKROZ SLOMLJ-
 
 `_.a2_attack_3 = "bad";`
 
@@ -858,15 +858,15 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: I'm not being irrational. People *do* drug punch bowls. That is an actual thing that actually happens.
+b: Nisam iracionalan. Ljudi *stvarno* ubacuju drogu u punč. To je realna stvar koja se realno događa.
 
 `bb({eyes:"suspect"})`
 
-b: Human, does your head hurt? Are your limbs limp? I think we're dying.
+b: Osobo, da li te boli glava? Da li su ti udovi mlitavi? Mislim da umiremo.
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH WE'RE DYING! WE'RE DYING WE'RE DYING WE'RE DYI--
+b: AAAAA MI UMIREMO! UMIREMO UMIREMO UMIREMO UMIR--
 
 `_.a2_attack_3 = "harm";`
 
@@ -898,70 +898,70 @@ attack("20p", _.a2_attack_3);
 
 (...1001)
 
-h: F^AAACK^!
+h: S^RAANJE^!
 
-h: F^ACK^ING F^ACK^-F^AKK^ITY *F^AAAAACK^*
+h: S^RANJE^ S^RANJE^ S^RANJE^ *S^RAANJE^*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
-b: Yay, human! I'm so happy you can hear me again!
+b: Hej, osobo! Drago mi je što me ponovo čuješ!
 
 `bb({body:"normal", mouth:"small", eyes:"sad"})`
 
-b: Why were you ignoring me?
+b: Zašto si me ignorisala?
 
 `hong({body:"facepalm"})`
 
-h: Holy ^hell^, you absolute moron.
+h: Kako misliš zašto, ti ^jebeni^ moronu?
 
 `hong({body:"facepalm_2"})`
 
-h: You know that Native American story?
+h: Znaš li onu priču američkih starosedelaca?
 
-h: "There are two wolves inside you, one is hope, one is despair, which wolf wins? The one you feed."
+h: "Postoje dva vuka u tebi, jedan je nada, drugi je očaj, koji će pobediti? Onaj kog hraniš."
 
 ```
 hong({body:"facepalm_3"});
 bb({eyes:"normal"});
 ```
 
-h: I was trying to *starve* you, you sadistic ^asshole^!
+h: *Izgladnjavala* sam te, sadistični ^šupku^!
 
 `hong({body:"smile", mouth:"smile"})`
 
-h: Screw it, I'll do positive affirmations instead.
+h: ^Jebeš^ to, probaću pozitivne afirmacije.
 
-h: *I am loved. I am good. I am smart. I am beautiful. I am special.*
+h: *Ja sam voljena. Ja sam dobra. Ja sam pametna. Ja sam lepa. Ja sam specijalna.*
 
 `bb({eyes:"suspect"});`
 
-[Golly, that's so narcissistic!](#act2d_narcissist)
+[Čoveče, to je tako narcisoidno!](#act2d_narcissist)
 
-[Y'know affirmations were *disproven?*](#act2d_disproven)
+[Znaš li da su afirmacije *opovrgnute?*](#act2d_disproven)
 
-[omg don't credit random stories to indigenous folk](#act2d_racist)
+[omg ne pripisuj nasumične priče domorodačkom narodu](#act2d_racist)
 
 # act2d_disproven
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: In fact, they actually *backfire* for people with low self-esteem! 
+b: U stvari, one *odmažu* ljudima sa niskim samopouzdanjem! 
 
 `bb({body:"one_up", mouth:"small", eyes:"normal"})`
 
-b: It was a well-designed study – randomized controlled trial, experimenter was blinded as to who was in which group.
+b: To je dobro dizajnirano istraživanje - slučajno birana kontrolna grupa, eksperimentator nije znao ko je u kojoj grupi.
 
 `bb({body:"two_up", mouth:"small", eyes:"normal_r"})`
 
-b: Results: if you already had low self-esteem, being asked to repeat affirmations makes you feel *worse* than if you'd said nothing at all!
+b: Rezultat: ako si već imao nisko samopouzdanje, teranje da ponavljaš afirmacije napravi da se osećaš *gore* nego da nisi rekao ništa!
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Wood 2009, Psychological Science. Look it up on Google Scholar, human,
+b: Wood 2009, Psychological Science. Potraži ga na Gugl Scholar-u, osobo,
 
 `bb({body:"scream_b_1"})`
 
-b: THEN STOP SPREADING UNSCIENTIFIC FAKE NEWS
+b: PA PRESTANI DA ŠIRIŠ NENAUČNE LAŽNE VESTI
 
 ```
 hong({body:"attacked"});
@@ -977,19 +977,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: You *need* to humbly see your own flaws in order to grow as a person!
+b: Ti *moraš* da u skromnosti sagledaš svoje mane kako bi rasla kao osoba!
 
 `bb({body:"two_up", eyes:"suspect"})`
 
-b: You can't spray air freshener over a moldy room! Covering up your flaws makes you worse in the long run.
+b: Ne možeš prskati osveživač vazduha u buđavoj sobi! Prekrivanje svojih mana ih čini gorima na duže staze.
 
 `bb({body:"chest", mouth:"smile", eyes:"closed"})`
 
-b: Thankfully, I, as your loyal guard-wolf, can alert you to your flaws. And right now, it's-
+b: Srećom te ja, tvoj verni vuk-čuvar, obaveštavam o tvojim manama. I trenutno je to-
 
 `bb({body:"scream_b_1"})`
 
-b: EVERYTHING. EVERYTHING IS WRONG
+b: SVE. SVE JE POGREŠNO
 
 ```
 hong({body:"attacked"});
@@ -1005,15 +1005,15 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: Native Americans are *actual people*, not some "noble savages" you can namedrop to make your fortune-cookie advice more *exotic*.
+b: Američki starosedeoci su *stvarni ljudi*, ne neki "plemeniti divljaci" koje možeš da pomeneš da napraviš svoje kolačiće sreće više *egzotičnima*.
 
 `bb({eyes:"suspect_r"})`
 
-b: You're reducing individual persons & complex cultures to a Hallmark card! That's "benevolent racism"! 
+b: Svela si individualce i kompleksne kulture na čestitku iz supermarketa! to je "blagonakloni rasizam"! 
 
 `bb({body:"scream_b_1"})`
 
-b: STOP BEING RACIST YOU SQUINTY-EYED JERK
+b: PRESTANI DA BUDEŠ RASISTA TI USKOOKI KRETENU
 
 ```
 hong({body:"attacked"});
@@ -1027,45 +1027,45 @@ attack("10p", "bad");
 
 # act2e
 
-h: ^ASSDAMMIT^.
+h: ^JEBEM MU^.
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: You know what? You're *irrational*.
+h: Znaš šta? Ti si *iracionalna*.
 
-h: Everyone knows emotions are irrational! Especially fear!
+h: Svi znaju da su emocije iracionalne! Posebno strah!
 
 `hong({body:"facepalm_2"})`
 
-h: You're a useless evolutionary leftover, like my appendix or wisdom teeth!
+h: Ti si beskoristan evolucionalni ostatak, kao moje slepo crevo ili umnjaci!
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: ^Hell^, this whole wolf metaphor is stupid! You're just a bunch of neuro-chemicals in my head.
+h: ^Jebote^, čitava metafora sa vukom je glupa! Ti si samo gomilu neuro-hemikalija u mojoj glavi.
 
 `hong({body:"cross", mouth:"cross"})`
 
-h: So why should I listen to a worthless, irrational, non-existent piece of ^shit^ like you?!
+h: Zašto bih onda trebala da slušam jedno beskorisno, iracionalno, nepostojeće ^govno^ kao što si ti?!
 
 `bb({eyes:"sad", MOUTH_LOCK:true})`
 
 b: ...
 
-[Jeez, human. That's really hurtful.](#act2e_hurtful)
+[Daj, osobo. To je baš zlobno.](#act2e_hurtful)
 
-[I'm a feeling. Feelings are valid.](#act2e_valid)
+[Ja sam osećanje. Osećanja su validna.](#act2e_valid)
 
-[Human, we're *both* "just chemicals."](#act2e_rational)
+[Osobo, *oboje* smo "samo hemikalije"."](#act2e_rational)
 
 # act2e_hurtful
 
 `bb({body:"chest"})`
 
-b: I'm *part* of you, you know. When you say that, you're hurting *yourself*.
+b: Ja sam *deo* tebe, znaš. Kada to kažeš, povređuješ *sebe*.
 
 `bb({body:"scream_a_1"})`
 
-b: Why are you hitting yourself, human? STOP HITTING YOURSELF.
+b: Zašto povređuješ sebe, osobo? PRESTANI DA POVREĐUJEŠ SEBE
 
 ```
 music(null);
@@ -1082,23 +1082,23 @@ attack("10p", "harm");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"});`
 
-b: Your deepest motivations are dopamine, your richest joys are serotonin.
+b: Tvoja najdublja motivacija je dopamin, tvoje najveće zadovoljstvo je serotonin.
 
 `bb({body:"one_up"});`
 
-b: Your memories are synaptic weights, your reason is fault-prone electrical signals.
+b: Tvoja sećanja su sinaptičke veze, tvoj razum su električni signali skloni greškama.
 
 `bb({eyes:"normal", body:"normal"});`
 
-b: So if me being "just chemicals" means *I'm* irrational... then that means *you're* irrational!
+b: Ako to što sam "samo hemikalije" znači da sam *ja* iracionalan... onda to znači da si *ti* iracionalna!
 
 `bb({body:"two_up", eyes:"shock"});`
 
-b: And if we're *both* irrational, then we'll *never* figure out how to be fulfilled and happy!
+b: A ako smo *oboje* iracionalni, onda *nikada* nećemo shvatiti kako da budemo zadovoljni i srećni!
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKEN--
+b: AAAAAA MI SMO UNIŠTENI! UNIŠTENI SMO UNIŠTENI SMO--
 
 ```
 music(null);
@@ -1115,11 +1115,11 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"});`
 
-b: Hang on... "they" say that feelings are valid, that you should always accept your emotions.
+b: Čekaj malo... "oni" kažu da su osećanja validna, da ih uvek moraš prihvatiti.
 
 `bb({eyes:"suspect_r"});`
 
-b: But "they" also say emotions are irrational, that emotions are not to be trusted.
+b: Ali "oni" takođe kažu da su emocije iracionalne, da im se ne može verovati.
 
 `bb({eyes:"angry"});`
 
