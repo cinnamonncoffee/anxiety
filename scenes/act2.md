@@ -758,15 +758,15 @@ b: BAM, BANKROTIRAŠ NAŠ ZDRAVSTVENI SISTEM I MILIONI UMRU
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: These pleasure-zombies will stumble towards you mumbling,
+b: Ti zombiji za zabave će da se dogegaju do tebe mumlajući,
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: LIIIIIKES. LIIIIIIIIIIKES.
+b: LAAAAJKOVI. LAAAAAAAJKOVI.
 
 `bb({body:"scream_a_1"})`
 
-b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS THOT!
+b: Onda će te UGRISTI i pretvoriti te u BRATA BEZ MOZGA i/ili KUJU BEZ NEVINOSTI!
 
 `_.a2_attack_3 = "bad";`
 
@@ -778,11 +778,11 @@ b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS TH
 
 `bb({body:"scream_a_1"})`
 
-b: THE NAZIS ARE GOOSE-STEPPING BACK ON THE STREETS RIGHT NOW
+b: NACISTI SE ŠETKAJU ULICAMA TRENUTNO
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
-b: Saying, *good thing those 'good folks' slacked off with stuff like 'relaxing' and 'self-care'!*
+b: Govoreći, *dobro je što je taj 'dobar narod' trošio vreme sa 'opuštanjem' i 'brizi o sebi'!*
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
