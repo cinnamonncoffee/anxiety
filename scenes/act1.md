@@ -1295,19 +1295,19 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: They'll trap you in a well and force-feed you white bread to fatten you up so they can wear your skin like a suit!
+b: Držaće nas u bunaru i terati da jedemo beli hleb da nas ugoje kako bi mogli da nose tvoju kožu kao odelo!
 {{/if}}
 
 {{if _.parasite}}
-b: They'll bludgeon you with a pomodoro timer and say "YOU SHOULDA BEEN MORE PRODUCTIVE YOU PARASITE"
+b: Udaraće nas sa pomodoro tajmerom i govoriće "TREBAŠ DA BUDEŠ VIŠE PRODUKTIVAN PARAZITU"
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: They'll tear your flesh to gory confetti, turn your entrails into streamers, and mix your blood into a punch bowl!
+b: Pokidaće tvoje meso na krvave konfete, pretvoriti tvoje iznutrice u trake, i napraviti punč od tvoje krvi!
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: How's THAT for a party invite?!
+b: Kako ti se SAD čini žurka?!
 {{/if}}
 
 ```
@@ -1334,44 +1334,44 @@ h: ...
 
 (...500)
 
-h: i'm so sick of this game.
+h: tako mi je dosta ove igre.
 
 (...700)
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 h:
-{{if _.fifteencigs}}"loneliness will kill us"... {{/if}}
-{{if _.parasite}}"we're a society-parasite"... {{/if}}
-{{if _.whitebread}}"don't eat that, it'll kill us"... {{/if}}
-{{if _.subtweet}}"they're talking behind our back"... {{/if}}
-{{if _.badnews}}"the world is burning"... {{/if}}
-{{if _.hookuphole}}"we'll die alone"... {{/if}}
-{{if _.serialkiller}}"they're a serial killer"... {{/if}}
-{{if _.catmilk}}"cats can't digest milk"... {{/if}}
-{{if _.pokemon}}a ^crappy^ parody song... {{/if}}
+{{if _.fifteencigs}}"usamljenost će nas ubiti"... {{/if}}
+{{if _.parasite}}"mi smo društveni parazit"... {{/if}}
+{{if _.whitebread}}"ne jedi to, ubiće nas"... {{/if}}
+{{if _.subtweet}}"pričaju nam iza leđa"... {{/if}}
+{{if _.badnews}}"svet gori"... {{/if}}
+{{if _.hookuphole}}"umrećemo sami"... {{/if}}
+{{if _.serialkiller}}"on je serijski ubica"... {{/if}}
+{{if _.catmilk}}"mačke ne vare mleko"... {{/if}}
+{{if _.pokemon}}^usrana^ parodija... {{/if}}
 
-h: i just want to live my life.
+h: samo želim da živim svoj život.
 
-h: i just want to be free from all this... pain.
+h: samo ne želim da osećam svu ovu... bol.
 
 `bb({eyes:"look_sad"});`
 
-b: Hey... human...
+b: Ej... osobo...
 
 `Game.OVERRIDE_TEXT_SPEED = 0.5;`
 
-b: It'll be okay.
+b: Sve će biti u redu.
 
 (...600)
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: As your loyal guard-wolf, I'll always keep an eye out for danger, and do my best to keep you safe.
+b: Tvoj verni vuk-čuvar će te uvek čuvati od svake opasnosti.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
-b: I promise.
+b: Obećavam.
 
 (...600)
 
@@ -1380,29 +1380,29 @@ bb({body:"normal", eyes:"normal", mouth:"normal"});
 hong({body:"phone1", eyes:"neutral", mouth:"neutral"});
 ```
 
-h: Last app. Instagram. What you got?
+h: Poslednja aplikacija. Instagram. Šta kažeš?
 
 `hong({eyes:"sad"});`
 
-h: It's... more party pictures.
+h: I... još slika sa žurke.
 
 `hong({mouth:"sad"});`
 
-h: Everyone looks so happy. Free from worry. Free from anxiety.
+h: Svi izgledaju tako srećno. Bezbrižno. Slobodni od anksioznosti.
 
 `hong({mouth:"anger"});`
 
-h: God, why can't I be like them? Why can't I just be *normal?*
+h: Zašto ne mogu da budem kao oni? Zašto ne mogu da budem *normalna?*
 
 `bb({eyes:"normal_right"});`
 
-b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
+b: Što se ove žurke tiče, evo moje KONAČNE odluke:
 
 `bb({eyes:"normal"});`
 
-[We should go.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
+[Idemo.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[We should not go.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[Ne idemo.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
@@ -1418,39 +1418,39 @@ b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
 
 # act1h
 
-b: We sh--
+b: Mislim d--
 
 ```
 bb({eyes:"wat", mouth:"small"});
 hong({body:"2_fuck"});
 ```
 
-h: *^FUCK^.*
+h: *^JEBI^.*
 
 `hong({body:"2_you"});`
 
-h: YOU.
+h: SE.
 
 (...500)
 
-b: w
+b: š
 
 (...1500)
 
 `bb({eyes:"wat_2"});`
 
-b: wha?
+b: šta?
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
-h: I'm going to say YES to that party,
+h: Odgovoriću na poziv sa DA,
 
 {{if _.act1g=="go"}}
-h: NOT because you want me to, but because *I* want to.
+h: NE zato što ti želiš, nego zato što *ja* želim.
 {{/if}}
 
 {{if _.act1g=="dont"}}
-h: Precisely BECAUSE you don't want me to.
+h: BAŠ zato što ti ne želiš.
 {{/if}}
 
 ```
@@ -1458,14 +1458,14 @@ hong({body:"putaway"});
 sfx("rustle");
 ```
 
-h: You're NOT in control of me.
+h: Ti me NE kontrolišeš.
 
 ```
 sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: Now excuse me while I eat this delicious sandwich in ^goddamn^ peace.
+h: Sad me pusti da jedem svoj ^jebeni^ sendvič na miru.
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1503,11 +1503,11 @@ b: ..................
 
 `bb({mouth:"normal"});`
 
-[AHHHH WE'RE GONNA DIE](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AAAAA UMREĆEMO](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH EVERYONE HATES US](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AAAAA SVI NAS MRZE](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH WE'RE HORRIBLE PEOPLE](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AAAAA UŽASNA SMO OSOBA](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
 
 # act1h_death
 
@@ -1516,7 +1516,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE GONNA DIE AAAAAAHHHHHHH
+b: AAAAA UMREĆEMO AAAAAAAAAAAAA
 
 ```
 hong({body:"3_defeated1"});
@@ -1534,7 +1534,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH EVERYONE HATES US AAAAAAHHHHHHH
+b: AAAAA SVI NAS MRZE AAAAAAAAAAAAA
 
 ```
 hong({body:"3_defeated1"});
@@ -1552,7 +1552,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE HORRIBLE PEOPLE AAAAAAHHHHHHH
+b: AAAAA UŽASNA SAMO OSOBA AAAAAAAAAAAAA
 
 ```
 hong({body:"3_defeated1"});
@@ -1570,39 +1570,39 @@ bb({mouth:"smile_lock", eyes:"smile", body:"normal"});
 music('battle', {volume:0.5});
 ```
 
-n: CONGRATULATIONS
+n: ČESTITAMO
 
 (...500)
 
-n: YOU'VE SUCCESSFULLY PROTECTED YOUR HUMAN'S PHYSICAL + SOCIAL + MORAL NEEDS
+n: USPEŠNO STE ZAŠTITILI FIZIČKE + SOCIJALNE + MORALNE POTREBE SVOJE OSOBE
 
-n: WHY, LOOK HOW GRATEFUL THEY ARE!
+n: SAMO POGLEDAJTE KOLIKO JE ZADOVOLJNA!
 
 (...500)
 
-n: NOW THAT THEIR ENERGY IS ZERO, YOU CAN DIRECTLY CONTROL THEIR ACTIONS
+n: SADA KAD JE NJIHOVA ENERGIJA NA NULI, DIREKTNO KONTROLIŠETE ŠTA RADE
 
 `bb({mouth:"smile", eyes:"normal"});`
 
-n: PICK YOUR ENDING MOVE
+n: IZABERITE ZAVRŠNI UDARAC
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *FINISH THEM*
+n: *ZAVRŠI*
 
-[{FIGHT: Punish your stressful phone!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{BORBA: Kazni svoj stresirajući telefon!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Curl up in a ball and cry!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{BEG: Sklupčaj se i plači!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
 `bb({mouth:"normal", eyes:"narrow"})`
 
-b: Your phone was giving you a panic attack!
+b: Telefon ti daje napade panike!
 
 `bb({eyes:"anger"})`
 
-b: Zuckerberg and Co are hijacking your mental health for venture capitalist money!
+b: Cukerberg i Kompanija otimaju tvoje mentalno zdravlje za njihov kapitalistički novac!
 
 ```
 bb({body:"fear", eyes:"fear"});
