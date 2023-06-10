@@ -34,7 +34,7 @@ n: TVOJ POSAO JE DA ŠTITIŠ SVOJU OSOBU OD *OPASNOSTI*
 
 n: U STVARI, PONOVNO IGRANJE JE DOVODI U *OPASNOST* BAŠ SADA
 
-n: BRZO, UPOZORI IH!
+n: BRZO, UPOZORI JE!
 
 ```
 sfx("squeak");
@@ -63,7 +63,7 @@ b: Nateraće nas da se sklupčamo u loptu i plačemo!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: Nateraće nas da ubijemo tvoj telefon jer nam je dao napad panike!
+b: Nateraće nas da uništimo tvoj telefon jer smo imali napad panike!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
@@ -100,7 +100,7 @@ h: Dobro, priča kao *priča* je ista, ali svako poglavlje ima dva moguća zavr�
 
 `bb({body:"fear"});`
 
-b: Igrač će biti razočaran, zatvori ovaj prozor, izbriši nam softver, i onda ćemo--
+b: Igrač će biti razočaran, tako da zatvori ovaj prozor, izbriši nam softver, i onda ćemo--
 
 (#act1_replay_end)
 
@@ -170,7 +170,7 @@ h: Okej uživimo se u likove ponovo.
 Game.clearText();
 ```
 
-n4: (PUSTI _SVOJU_ ANKSIOZNOST BLA BLA BLA NAJSLIČNIJE _SVOM_ STRAHU BLA BLA SVE VEĆ ZNAŠ)
+n4: (PUSTI _SVOJU_ ANKSIOZNOST BLA BLA BLA NAJSLIČNIJE _TVOM_ STRAHU BLA BLA SVE VEĆ ZNAŠ)
 
 ```
 sfx("squeak");
@@ -194,9 +194,9 @@ n: TVOJ POSAO JE DA ČUVAŠ SVOJU OSOBU OD *OPASNOSTI*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: U STVARI, TAJ SENDVIČ IH STAVLJA U *OPASNOST* BAŠ SADA
+n: U STVARI, TAJ SENDVIČ JE STAVLJA U *OPASNOST* BAŠ SADA
 
-n: BRZO, UPOZORI IH!
+n: BRZO, UPOZORI JE!
 
 ```
 sfx("squeak");
@@ -208,7 +208,7 @@ b: Osobo! Slušaj, u opasnosti smo! Opasnost je...
 
 `bb({body:"squeeze"})`
 
-n4: (PUSTI _TVOJU_ ANKSIOZNOST DA DOĐE DO IZRAŽAJA! IZABERI ONO ŠTO JE NAJSLIČNIJE _TVOM_ STRAHU)
+n4: (PUSTI _SVOJU_ ANKSIOZNOST DA DOĐE DO IZRAŽAJA! IZABERI ONO ŠTO JE NAJSLIČNIJE _TVOM_ STRAHU)
 
 (#act1_normal_choice)
 
@@ -369,7 +369,7 @@ n: I STRAH *DA SI LOŠA OSOBA* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (SAVET: BIRAJ IZBORE KOJI POGAĐAJU TVOJE NAJDUBLJE, NAJMRAČNIJE STRAHOVE!~)
+n4: (SAVET: BIRAJ IZBORE KOJI BUDE TVOJE NAJDUBLJE, NAJMRAČNIJE STRAHOVE!~)
 
 h: ...
 
@@ -428,7 +428,7 @@ h: Takođe, dobila sam poziv?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Pa onda!
+b: Pa?!
 
 [Reci da, ili ćemo umreti od usamljenosti!](#act1c_loner)
 
@@ -468,7 +468,7 @@ attack("18p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: Tako da treba da idemo na žurku!
+b: Treba da idemo na žurku!
 {{/if}}
 
 {{if _.parasite}}
@@ -486,7 +486,7 @@ h: GOSPODE. Ako ćeš ućutati, u redu.
 h: Reći ću da.
 
 {{if _.whalepoop}}
-b: Kitovski izmet, osobo! Kitovski izmet!
+b: Kitov izmet, osobo! Kitov izmet!
 {{/if}}
 
 `_.partyinvite="yes"`
@@ -569,7 +569,7 @@ b: Ako odemo učinićemo da se osećaju loše, ali ako odbijemo takođe ćemo u�
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: SVE ŠTO MI IKADA RADIMO JE DA ČINIMO LJUDE DA SE OSEĆAJU LOŠE, PA TREBA DA SE OSEĆAMO LOŠE
+b: SVE ŠTO MI IKADA RADIMO JE DA ČINIMO LJUDE DA SE OSEĆAJU LOŠE, PA I MI TREBA DA SE OSEĆAMO LOŠE
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -595,7 +595,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Svejedno. Fejs je previše. Treba mi nešto smirenije, nešto sa manje anksioznosti.
+h: Svejedno. Fejs je previše. Treba mi nešto mirnije, nešto sa manje anksioznosti.
 
 `hong({eyes:"neutral"});`
 
@@ -676,7 +676,7 @@ h: Verovatno nije?
 
 b: ali šta ako svi oni pričaju nama iza leđa
 
-h: Oni su bl--
+h: Oni su b--
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
@@ -1148,7 +1148,7 @@ hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: O, imam podudaranje! Slatki su!
+h: O, imam podudaranje! Sladak je!
 
 ```
 bb({eyes:"narrow_eyebrow"});
@@ -1208,7 +1208,7 @@ attack("18p", "alone");
 
 `bb({eyes:"narrow", mouth:"small"})`
 
-b: Miliš li da su genitalije drugih ljudi Pokemoni da ih mi sakupljamo?
+b: Misliš li da su genitalije drugih ljudi Pokemoni da ih mi sakupljamo?
 
 ```
 bb({body:"sing", eyes:"pretty", mouth:"shut"});
@@ -1258,7 +1258,7 @@ bb({eyes:"fear", mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2000;
 ```
 
-b: ♫ sa znojavim ^kurcem^ i jajima!-
+b: ♫ sa ^kurcem^ i jajima!-
 
 (...1000)
 
@@ -1580,7 +1580,7 @@ n: SAMO POGLEDAJTE KOLIKO JE ZADOVOLJNA!
 
 (...500)
 
-n: SADA KAD JE NJIHOVA ENERGIJA NA NULI, DIREKTNO KONTROLIŠETE ŠTA RADE
+n: SADA KAD JE NJENA ENERGIJA NA NULI, DIREKTNO KONTROLIŠETE ŠTA RADI
 
 `bb({mouth:"smile", eyes:"normal"});`
 
@@ -1588,7 +1588,7 @@ n: IZABERITE ZAVRŠNI UDARAC
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *ZAVRŠI*
+n: *DOKRAJČI JE!*
 
 [{BORBA: Kazni svoj stresirajući telefon!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1602,7 +1602,7 @@ b: Telefon ti daje napade panike!
 
 `bb({eyes:"anger"})`
 
-b: Cukerberg i Kompanija otimaju tvoje mentalno zdravlje za njihov kapitalistički novac!
+b: Cukerberg i kompanija otimaju tvoje mentalno zdravlje za njihov kapitalistički novac!
 
 ```
 bb({body:"fear", eyes:"fear"});
