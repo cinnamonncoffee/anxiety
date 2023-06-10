@@ -1552,7 +1552,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AAAAA UŽASNA SAMO OSOBA AAAAAAAAAAAAA
+b: AAAAA UŽASNA SMO OSOBA AAAAAAAAAAAAA
 
 ```
 hong({body:"3_defeated1"});
@@ -1610,7 +1610,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Punish your phone! Destroy it! Kill it!
+b: Kazni svoj telefon! Uništi ga! Ubij ga!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1619,7 +1619,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL I--
+b: UBIJ GA UBIJ GA UBIJ GA UBIJ GA UBIJ GA UBIJ GA UBIJ GA UBIJ GA UBIJ GA UBIJ GA UBIJ GA UBIJ--
 
 (#act1j)
 
@@ -1627,7 +1627,7 @@ b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL 
 
 `bb({eyes:"fear", mouth:"normal"})`
 
-b: The whole world is filled with danger!
+b: Svet je prepun opasnosti!
 
 ```
 bb({body:"fear"});
@@ -1635,7 +1635,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do like the armadillo! Curl up into a ball for self-defense!
+b: Budi kao armadilo! Sklupčaj se u samoodbrani!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1644,7 +1644,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CR-- 
+b: SKLUPČAJ SE I PLAČI SKLUPČAJ SE I PLAČI SKLUPČAJ SE I PLAČI SKLUPČAJ SE I PLAČI SKLUPČAJ SE-- 
 
 (#act1j)
 
