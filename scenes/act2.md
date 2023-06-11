@@ -452,7 +452,7 @@ b: Moramo da odemo odavde i zatvorimo se u karantin u maloj sobi sa Netfliksom i
 ```
 _.a2_second_danger = 'netflix';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "a quarantine";
+_.a2_hoodie_callback = "karantinu";
 ```
 
 (#act2c)
@@ -495,7 +495,7 @@ b: "VELIKI ODVRATNI SMEĆARSKI PERVEZNJAK"
 ```
 _.a2_second_danger = 'law';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "the law";
+_.a2_hoodie_callback = "zakonu";
 ```
 
 (#act2c)
@@ -525,7 +525,7 @@ b: TO JE EFEKAT LEPTIRA, OSOBO! KOLIKO LJUDI TRENUTNO SLUČAJNO UBIJAŠ
 ```
 _.a2_second_danger = 'butterfly';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "World War I";
+_.a2_hoodie_callback = "Prvom svetskom ratu";
 ```
 
 (#act2c)
@@ -553,7 +553,7 @@ b: Osobo, moramo da bežimo od ovih zombija za zabave pre nego što nas pretvore
 ```
 _.a2_second_danger = 'zombies';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "zombies";
+_.a2_hoodie_callback = "zombijima";
 ```
 
 (#act2c)
@@ -581,7 +581,7 @@ b: ZABAVLJANJEM POMAŽEMO *HITLERU*.
 ```
 _.a2_second_danger = 'hitler';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "Hitler";
+_.a2_hoodie_callback = "Hitleru";
 ```
 
 (#act2c)
@@ -605,7 +605,7 @@ b: UMRETIIIIIIIIIIIIIII
 ```
 _.a2_second_danger = 'ignore';
 _.a2_attack_2 = "harm";
-_.a2_hoodie_callback = "carbon monoxide";
+_.a2_hoodie_callback = "ugljenik-monoksidu";
 ```
 
 (#act2c)
@@ -687,7 +687,7 @@ b: I onda će morati da sterilišu dron da ga očiste od BAKTERIJA TUŽNE GRUDE
 
 `_.a2_attack_3 = "alone";`
 
-`_.a2_hoodie_callback = "a quarantine";`
+`_.a2_hoodie_callback = "karantinu";`
 
 (#act2d)
 
@@ -726,7 +726,7 @@ b: zato što je VELIKI ODVRATNI SMEĆARSKI PERVEZNJAK
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the law";`
+`_.a2_hoodie_callback = "zakonu";`
 
 (#act2d)
 
@@ -750,7 +750,7 @@ b: BAM, BANKROTIRAŠ NAŠ ZDRAVSTVENI SISTEM I MILIONI UMRU
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the butterfly effect";`
+`_.a2_hoodie_callback = "efektu leptira";`
 
 (#act2d)
 
@@ -770,7 +770,7 @@ b: Onda će te UGRISTI i pretvoriti te u BRATA BEZ MOZGA i/ili KUJU BEZ NEVINOST
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "zombies";`
+`_.a2_hoodie_callback = "zombijima";`
 
 (#act2d)
 
@@ -790,7 +790,7 @@ b: *Gut, naši planovi se mogu nastaviti!*
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "Hitler";`
+`_.a2_hoodie_callback = "Hitleru";`
 
 (#act2d)
 
@@ -810,7 +810,7 @@ b: NE BISMO NI PRIMETILI DA SE SMRT PRIBLIŽAVA. SAMO BISMO NESTALI ZAUVEK ZAUVE
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "carbon monoxide";`
+`_.a2_hoodie_callback = "ugljenik-monoksidu";`
 
 (#act2d)
 
@@ -870,7 +870,7 @@ b: AAAAA MI UMIREMO! UMIREMO UMIREMO UMIREMO UMIR--
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "punch bowls";`
+`_.a2_hoodie_callback = "činijama punča";`
 
 (#act2d)
 
@@ -1123,11 +1123,11 @@ b: Ali "oni" takođe kažu da su emocije iracionalne, da im se ne može verovati
 
 `bb({eyes:"angry"});`
 
-b: Oh my gosh, "they" have been lying to us this whole time!
+b: O moj bože, "oni" nas lažu sve ovo vreme!
 
 `bb({body:"scream_a_1"})`
 
-b: "THEY" FEED US CONTRADICTIONS TO MAKE US DEPENDENT ON THE SELF-HELP INDUSTRIAL COMPLEX
+b: "ONI" NAS HRANE KONTRADIKCIJAMA DA NAS UČINE ZAVISNIMA OD INDUSTRIJSKOG KOMPLEKSA SAMOPOMOĆI
 
 ```
 music(null);
@@ -1146,62 +1146,62 @@ attack("10p", "harm");
 
 h: ...
 
-h: I hate this. God it hurts so much I *hate* this.
+h: Mrzim ovo. Gospode toliko boli toliko *mrzim* ovo.
 
-h: I can't appease you. I can't ignore you. I can't fight you. 
+h: Ne mogu da te smiriti. Ne mogu te ignorisati. Ne mogu da se izborim sa tobom. 
 
 `bb({eyes:"suspect"});`
 
-h: No matter what I do, I can't seem to get rid of yo--
+h: Šta god da uradim, ne uspevam da te se otar--
 
 `bb({body:"cry_1"});`
 
-b: Well maybe you're NOT *SUPPOSED* TO GET RID OF ME.
+b: Pa možda NI *NE TREBAŠ* DA ME SE OTARASIŠ.
 
 `bb({body:"cry_2"});`
 
-b: How do you think *I* feel, human?!
+b: Kako misliš da je *ja* osećam, osobo?!
 
 `bb({body:"cry_4", mouth:"cry", eyes:"cry"})`
 
-b: I'm trying my best to be your guard-dog, but you keep seeing me as some Big Bad Wolf!
+b: Trudim se da budem tvoj vuk-čuvar, ali ti me samo vidiš kao Velikog Zlog Vuka!
 
-b: So I try even *harder* to alert you to danger! *More* danger! *Different* danger!
+b: Pa se *još više* trudim da te obavestim o opasnosti! *Još* opasnosti! *Drugačijoj* opasnosti!
 
 `bb({eyes:"cry_2"})`
 
-b: But no matter how hard I try to protect you, you *still* think I'm your enemy!
+b: Ali koliko god se trudim da te zaštitim, ti *još uvek* misliš da sam ja tvoj neprijatelj!
 
 `bb({body:"cry_5"});`
 
-b: What am I doing wrong?!
+b: Šta radim pogrešno?!
 
 `bb({body:"cry_2"});`
 
-b: I *know* I suck at my job. But I'm *trying*, human!
+b: *Znam* da sam užasan u svom poslu. Ali *trudim se*, osobo!
 
 `bb({body:"cry_3"});`
 
-b: ...I'm trying.
+b: ...Trudim se.
 
 `bb({body:"cry_6", mouth:"right", eyes:"cry_r_1"});`
 
-b: You don't have to heed my warnings, or agree with me, or even *like* me.
+b: Ne moraš obraćati pažnju na moja upozorenja, ili se slagati sa mnom, ili me *voleti*.
 
 `bb({eyes:"cry_r_2"});`
 
-b: I just... all I want is for you to be patient with me.
+b: Samo... sve što želim je da budeš strpljiva sa mnom.
 
 `bb({eyes:"cry_r_3"});`
 
-b: I just want for you to sit with me for a while, instead of turning away and--
+b: Samo želim da malo sediš sa mnom, a ne da se okreneš i--
 
 ```
 bb({eyes:"cry_r_4"});
 hong({body:"listen"});
 ```
 
-r: Hey.
+r: Ej.
 
 ```
 hong({body:"look"});
@@ -1218,21 +1218,21 @@ publish("act2",["party_hunter",2]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Looks like you're caught in a fight with yourself, kid.
+r: Izgleda da se boriš sa samom sobom, srećo.
 
 ```
 publish("act2",["party_hunter",3]);
 publish("act2",["party_hong",13]);
 ```
 
-h2: Was it that obvious?
+h2: Jel' toliko očigledno?
 
 ```
 publish("act2",["party_hunter",4]);
 publish("act2",["party_hong",14]);
 ```
 
-r: You were, uh, mumbling at your hoodie about {{_.a2_hoodie_callback}} or something.
+r: Ti si, ovaj, mumlala u duks o {{_.a2_hoodie_callback}} ili tako nečemu.
 
 ```
 publish("act2",["party_hunter",13]);
@@ -1248,7 +1248,7 @@ setTimeout(function(){
 },801);
 ```
 
-h2: oh god i'm such a mess.
+h2: gospode ja sam u haosu.
 
 ```
 publish("act2",["party_hunter",7]);
@@ -1256,7 +1256,7 @@ publish("act2",["party_hong",18]);
 sfx("squeak");
 ```
 
-r: Hey. You're not alone, friend. Anxiety's super common.
+r: Ej. Nisi sama, sestro. Anksioznost je vrlo uobičajena.
 
 ```
 publish("act2",["party_hunter",5]);
@@ -1264,38 +1264,38 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: Heck, just yesterday, I heard someone on campus had a nervous breakdown and smashed their phone!
+r: Mislim, baš juče sam čula da je neko imao nervni slom i slupao svoj telefon!
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: Heck, just yesterday, I heard someone curled up into an armadillo ball and cried in public!
+r: Milsim, baš juče sam čula da se neko sklupčao kao armadilo i plakao u javnosti!
 {{/if}}
 
 ```
 publish("act2",["party_hunter",2]);
 ```
 
-r: Listen: I know what it's like to have that animal in your head.
+r: Slušaj: Znam kako je kad imaš tu životinju u glavi.
 
 ```
 publish("act2",["party_hunter",8]);
 ```
 
-r: We *all* do. That's why I throw these parties every weekend, to forget our worries, forget that animal.
+r: *Svi* znamo. Zato pravimo žurke svakog vikenda, da zaboravimo brige, tu životinju.
 
 ```
 publish("act2",["party_hunter",9]);
 publish("act2",["party_hong",20]);
 ```
 
-h2: but my anxiety...
+h2: ali moja anksioznost...
 
 ```
 publish("act2",["party_hunter",2]);
 publish("act2",["party_hong",21]);
 ```
 
-r: Don't worry, kid. I used to be like you. But then I found a little trick to get that negative voice to shut up forever...
+r: Ne brini, srećo. Bila sam kao ti. Ali onda sam otkrila jedan mali trik da ugasim taj negativni glas zauvek...
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1325,14 +1325,14 @@ sfx("rustle2");
 publish("act2",["party_hunter",11]);
 ```
 
-r: My own specialty blend. It's a bit stronger than... well, anything legal really.
+r: Moja specijalna mešavina. Malo je jača od... pa, bilo čega legalnog.
 
 ```
 publish("act2",["party_hunter",12]);
 publish("act2",["party_hong",24]);
 ```
 
-r: Bottoms up, ^bee-yatch^!
+r: Naiskap, ^kujo^!
 
 ```
 hong({body:"hold"});
@@ -1345,11 +1345,11 @@ publish("hp_show");
 
 (...3500)
 
-[Oh my God.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
+[O moj Bože.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is a bad coping mechanism.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
+[To je loš odbrambeni mehanizam.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Don't take drinks from strangers.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Ne uzimaj piće od stranaca.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2g_1
 
@@ -1365,7 +1365,7 @@ b: T--
 
 # act2g_3
 
-b: D--
+b: N--
 
 (#act2g)
 
@@ -1384,34 +1384,34 @@ hong({body:"forward", mouth:"forward"});
 bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 ```
 
-h: Mmm, what an exquisite palette!
+h: Mmm, kakvi izuzetni ukusi!
 
-h: A full-bodied flavor of "shut your mind up," with a subtle aftertaste of "never feel anything ever again"!
+h: Bogati ukus "začepi glas u glavi", sa suptilnim notama "više nikada ništa neću osetiti"!
 
-b: This is bad, human. This is really, really bad.
+b: Ovo je loše, osobo. Ovo je mnogo, mnogo loše.
 
-[This is *actually* how addiction starts.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
+[To je *upravo* ko+ako počinje zavisnost.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[I *knew* the host was deeply messed up!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
+[*Znao* sam da je domaćin duboko zeznut!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Also, they could have drugged that!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Takođe, mogla je da stavi drogu u to!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 
 # act2h_opt1
 
-b: This is *actu*--
+b: To je *upr*--
 
 (#act2h)
 
 # act2h_opt2
 
-b: Also, they co--
+b: Takođe, mogl--
 
 (#act2h)
 
 # act2h_opt3
 
-b: I *knew* th--
+b: *Znao* sam d--
 
 (#act2h)
 
@@ -1430,17 +1430,17 @@ hong({body:"back", mouth:"back"});
 bb({body:"panicked", mouth:"panicked", eyes:"panicked"});
 ```
 
-h: Delicious, *and* cheaper than therapy!
+h: Preukusno, *i* jeftinije od terapije!
 
-b: HUMAN PLEASE STOP
+b: OSOBO MOLIM TE PRESTANI
 
 h: Hehehe!
 
-h: And what are *you* gonna do about it, ^asshole^?
+h: A *šta* ćeš da uradiš, ^šupku^?
 
-b: I'm so sorry, human.
+b: Tako mi je žao, osobo.
 
-b: I'm going to have to use my SPECIAL ATTACK
+b: Moraću da iskoristim svoj SPECIJALNI NAPAD
 
 ```
 bb({body:"special_a"});
@@ -1467,9 +1467,9 @@ hong({body:"forward", mouth:"forward"});
 sfx("charging");
 ```
 
-h: What's this ^crap^?
+h: Šta je ovo ^sranje^?
 
-h: You're gonna yap more stupid *words* at me to--
+h: Hoćeš li lajati još glupavih *reči* da--
 
 ```
 bb({body:"special_c"});
@@ -1505,45 +1505,45 @@ setTimeout(function(){
 
 (...2500)
 
-h: WHAT THE ^HELL^ WAS THAT
+h: KOJI ^KURAC^ JE TO BILO
 
-b: I'm sorry. I needed to show you the consequences.
+b: Žao mi je. Morao sam da ti pokažem posledice.
 
 {{if _.SPECIAL_ATTACK=="harm"}}
-h: I COULD *SEE* MY OWN CORPSE. I COULD *FEEL* THE SENSATION OF BEING ACTUALLY DEAD.
+h: MOGLA SAM DA *VIDIM* SVOJ LEŠ. *OSETILA SAM* DA SAM ZAPRAVO MRTVA.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: I COULD *SEE* EVERYONE'S LOOK OF DISGUST. I COULD *HEAR* ALL THE THINGS THEY SAID.
+h: MOGLA SAM DA *VIDIM* KAKO ME GLEDAJU U GAĐENJU. *ČULA* SAM ŠTA GOVORE.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: I COULD *HEAR* THE CRUNCHING OF RIBS. I COULD *TASTE* THE BLOOD IN THE AIR.
+h: MOGLA SAM DA *ČUJEM* KRCKANJE REBARA. *OKUSILA* SAM KRV U VAZDUHU.
 {{/if}}
 
-b: I'm sorry, human.
+b: Žao mi je, osobo.
 
-n: *FINISH THEM*
+n: *DOKRAJČI JE*
 
-[{FIGHT: Punch the host.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{BORBA: Udari domaćina.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Let's get out of here.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{BEG: Idemo odavde.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2j_fight
 
 `bb({ eyes:"angry" });`
 
-b: That psychopath was taking advantage of you.
+b: Taj psihopata te je koristio.
 
-b: They were trying to corrupt you, make you as messed up as they are!
+b: Pokušavala je da te pokvari, da te učini pokvarenom koliko je i ona!
 
 `bb({ body:"yell_angry_1" });`
 
-b: Punch that jerk! Knock their friggin' lights out!
+b: Udari tu budalu! Razbij joj vilicu!
 
 `bb({ body:"final_1" });`
 
-b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THE--
+b: UDARI JE UDARI JE UDARI JE UDARI JE UDARI JE UDARI JE UDARI JE UDARI JE UDARI JE UD--
 
 `_.a2_ending = "fight";`
 
@@ -1551,15 +1551,15 @@ b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM 
 
 # act2j_flight
 
-b: I *knew* all these partygoers were deeply messed up. They all dull their pain with horrible things!
+b: *Znao* sam da su ovi ludaci nenormalni. Gase svoju bol sa užasnim stvarima!
 
 `bb({ body:"yell_1" });`
 
-b: And they're tricking you into doing the same thing! They're corrupting you! We need to get out!
+b: I hoće da te prevare da uradiš isto! Korumpiraju te! Moramo da idemo!
 
 `bb({ body:"final_1" });`
 
-b: GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OU--
+b: IDI IDI IDI IDI IDI IDI IDI IDI IDI IDI IDI IDI IDI IDI IDI IDI IDI IDI IDI IDI ID--
 
 `_.a2_ending = "flight";`
 
@@ -1588,7 +1588,7 @@ publish("act2",["party_hunter",14]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: You alright, kid?
+r: Jesi li u redu, srećo?
 
 `publish("act2",["party_hunter",13]);`
 
@@ -1620,7 +1620,7 @@ publish("act2",["dee",6]);
 publish("act2",["dum",6]);
 ```
 
-r: Y-you...
+r: T-ti...
 
 ```
 publish("act2",["party_hunter",23]);
@@ -1630,22 +1630,22 @@ publish("act2",["dum",5]);
 music('party1', {volume:0.6, fade:6});
 ```
 
-r: are *kinky*.
+r: si *opasna*.
 
-r: I like that. Come to my party next weekend, cutie.
+r: To mi se sviđa. Dođi na moju žurku sledećeg vikenda, šećeru.
 
 ```
 publish("act2",["party_hunter",19]);
 publish("act2",["party_hong",36]);
 ```
 
-h2: ok bye, ciao, adios, au revoir
+h2: okej zdravo, ciao, adios, au revoir
 
-r: The animal might have won today, but come back, and I'll mix something even stronger for you!
+r: Životinja je možda pobedila danas, ali dođi ponovo, i napraviću ti nešto još jače!
 
 h2: sayōnara, auf wiedersehen, zài jiàn, shalom
 
-r: You and me, kid, we'll show that beast who's boss!
+r: Ti i ja, srećo, mi ćemo pokazati životinji ko je glavni!
 
 (#act2k_end)
 
@@ -1653,23 +1653,23 @@ r: You and me, kid, we'll show that beast who's boss!
 
 `publish("act2",["party_hong",36]);`
 
-h2: ok sorry i have to run
+h2: okej izvini moram da idem
 
 `publish("act2",["party_hunter",16]);`
 
-r: ^Damn^ it. The animal won today, huh?
+r: ^Jebiga^. Znači, životinja je pobedila danas?
 
 `publish("act2",["party_hunter",15]);`
 
-h2: no no, just, uh, gotta run a marathon. gotta go fast.
+h2: ne ne, samo, ovaj, trčim maraton. brzinom svetla.
 
 `publish("act2",["party_hunter",19]);`
 
-r: Come to my party next weekend, cutie. I'll mix something even stronger for you.
+r: Dođi na moju žurku sledećeg vikenda, šećeru. Napraviću ti nešto još jače.
 
-h2: ok thanks gonna run run run run run
+h2: okej hvala moram da idem idem idem idem idem
 
-r: You and me, kid, we'll show that beast who's boss!
+r: Ti i ja, srećo, mi ćemo pokazati životinji ko je glavni!
 
 (#act2k_end)
 
@@ -1692,13 +1692,13 @@ sfx("whoosh");
 
 (...1000)
 
-b: Human! Are you okay?!
+b: Osobo! Jesi li dobro?!
 
 ```
 publish("act2", ["act2_end","next"]);
 ```
 
-b: Gosh, that was *close.* We really could've--
+b: Jao, to je bilo *blizu.* Stavrno bismo mogl--
 
 ```
 Game.clearText();
@@ -1716,11 +1716,11 @@ sfx("hit");
 
 (...1000)
 
-h: I'm coming back to the party next weekend.
+h: Dolazim na žurku sledećeg vikenda.
 
-h: The next time we fight, I'm not just going to *defeat* you...
+h: Kada se sledećeg puta budemo borili, neću te samo *pobediti*...
 
-h: I'm going to ^fuck^ing *kill* you.
+h: ^Jebe^no ću te *ubiti*.
 
 ```
 Game.clearText();
