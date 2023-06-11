@@ -93,7 +93,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Da, skroz lažne. Ko bi pao na to i retvitovao?
+a: Da, skroz su lažne. Ko bi pao na to i retvitovao?
 
 ```
 publish("act2",["dum",2]);
