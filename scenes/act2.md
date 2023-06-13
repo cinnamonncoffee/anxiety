@@ -78,7 +78,7 @@ a: Uh, znam, zar ne?
 publish("act2",["dee",3]);
 ```
 
-s: Ali jeste li *videli* te viralne "vesti"?
+s: Ali jeste li *videli* te "vesti" koje su postale viralne?
 
 ```
 publish("act2",["dee",2]);
@@ -108,7 +108,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Ozbiljno druže. Kao, zdravo, otvori taj Gugl i proveri činjenice prvo?
+s: Ozbiljno druže. Kao, halo, otvori taj Gugl i proveri činjenice prvo?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -229,7 +229,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Da ne znam! Šta, jel' mislila da sam *serijski ubica* ili tako nešto? Kakva paranoja.
+s: Da, ne razumem! Šta, jel' mislila da sam *serijski ubica* ili tako nešto? Kakva paranoja.
 
 ```
 publish("act2",["party_hunter",1]);
@@ -249,7 +249,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Da ne znam! Možda misli da kombinacije ne mogu da popune rupu u njenom srcu?
+s: Da, ne razumem! Možda misli da kombinacije ne mogu da popune rupu u njenom srcu?
 
 s: Prestani da budeš toliko čedna! Raširi um, raširi noge!
 
@@ -271,7 +271,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Da ne znam! Nije toliko lepa, ali je dobar ulov!
+s: Da, ne razumem! Nije toliko lepa, ali je dobar ulov!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -312,7 +312,7 @@ n: DRUGA RUNDA: *BORBA!*
 
 `bb({eyes:"sad"})`
 
-b: Uništavamo raspoloženje ove žurke jer smo kao neka tužna gruda!
+b: Uništavamo raspoloženje ove žurke jer smo tužna gruda!
 
 `bb({eyes:"shock", body:"two_up"})`
 
@@ -366,7 +366,7 @@ b: I koliko samo smrti ima! *Mi* ćemo umreti. *Oni koje volimo* će umreti.
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Mislim, Drugi Zakon Termodinamike znači da će čak i naš *univerzum* umreti!
+b: Mislim, Drugi Zakon Termodinamike govori da će čak i naš *univerzum* umreti!
 
 `bb({eyes:"suspect", body:"normal"})`
 
@@ -403,7 +403,7 @@ b: ...
 
 `bb({eyes:"shock", mouth:"small_talk", body:"chest", MOUTH_LOCK:true})`
 
-b: *HA*
+b: *AH*
 
 `bb({mouth:"small_talk"})`
 
@@ -486,7 +486,7 @@ sfx("gravel");
 
 (...501)
 
-b: Zakon o Čudacima, Član 74.5: (1) Bilo koja Osoba koja bulji u (a) ta mišićava ramena (b) to definisano dupe (2) će nadalje biti poznata kao
+b: Zakon o Čudacima, Član 74.5: (1) Bilo koja Osoba koja bulji u (a) ta mišićava ramena (b) tu definisanu zadnjicu (2) će nadalje biti poznata kao
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
@@ -683,7 +683,7 @@ b: Moramo da se preselimo na teritoriju kanadskog Jukona i tražiti da nam dosta
 
 `bb({body:"two_up", mouth:"normal"})`
 
-b: I onda će morati da sterilišu dron da ga očiste od BAKTERIJA TUŽNE GRUDE
+b: I onda će morati da sterilišu dron da ga očiste od VIRUSA TUŽNE GRUDE
 
 `_.a2_attack_3 = "alone";`
 
@@ -716,7 +716,7 @@ sfx("gravel");
 
 (...501)
 
-b: VELIKI ODVRATNI SMEĆARSKI PERVEZNJAK biće osuđen na 72 sata u jednom od onih srednjovekovnih sprava za javno ponižavanje
+b: VELIKI ODVRATNI SMEĆARSKI PERVEZNJAK biće osuđen na 72 sata u jednoj od onih srednjovekovnih sprava za javno ponižavanje
 
 b: osim ako tajno *voli* takve stvari
 
@@ -782,7 +782,7 @@ b: NACISTI SE ŠETKAJU ULICAMA TRENUTNO
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
-b: Govoreći, *dobro je što je taj 'dobar narod' trošio vreme sa 'opuštanjem' i 'brizi o sebi'!*
+b: Govoreći, *dobro je što je taj 'dobar narod' trošio vreme na 'opuštanje' i 'brigu o sebi'!*
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
@@ -844,7 +844,7 @@ b: Ostale psiha vuče da čine dobro, ali jedino "dobro" koje mi pronalazimo je 
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: Šta je u našoj prirodi ako želimo da povređujemo druge? Šta ako nemožemo biti bilo šta drugo sem *tereta* našim najbližima?
+b: Šta je u našoj prirodi slomljeno da želimo da povređujemo druge? Šta ako ne možemo biti bilo šta drugo sem *tereta* našim najbližima?
 
 `bb({body:"scream_a_1"})`
 
@@ -937,7 +937,7 @@ h: *Ja sam voljena. Ja sam dobra. Ja sam pametna. Ja sam lepa. Ja sam specijalna
 
 [Čoveče, to je tako narcisoidno!](#act2d_narcissist)
 
-[Znaš li da su afirmacije *opovrgnute?*](#act2d_disproven)
+[Znaš li da su *opovrgnuli* afirmacije?](#act2d_disproven)
 
 [omg ne pripisuj nasumične priče domorodačkom narodu](#act2d_racist)
 
@@ -961,7 +961,7 @@ b: Wood 2009, Psychological Science. Potraži ga na Gugl Scholar-u, osobo,
 
 `bb({body:"scream_b_1"})`
 
-b: PA PRESTANI DA ŠIRIŠ NENAUČNE LAŽNE VESTI
+b: I PRESTANI DA ŠIRIŠ NENAUČNE LAŽNE VESTI
 
 ```
 hong({body:"attacked"});
@@ -1009,7 +1009,7 @@ b: Američki starosedeoci su *stvarni ljudi*, ne neki "plemeniti divljaci" koje 
 
 `bb({eyes:"suspect_r"})`
 
-b: Svela si individualce i kompleksne kulture na čestitku iz supermarketa! to je "blagonakloni rasizam"! 
+b: Svela si individualce i kompleksne kulture na čestitku iz supermarketa! To je "blagonakloni rasizam"! 
 
 `bb({body:"scream_b_1"})`
 
@@ -1031,7 +1031,7 @@ h: ^JEBEM MU^.
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: Znaš šta? Ti si *iracionalna*.
+h: Znaš šta? Ti si *iracionalan*.
 
 h: Svi znaju da su emocije iracionalne! Posebno strah!
 
@@ -1098,7 +1098,7 @@ b: A ako smo *oboje* iracionalni, onda *nikada* nećemo shvatiti kako da budemo 
 
 `bb({body:"scream_a_1"})`
 
-b: AAAAAA MI SMO UNIŠTENI! UNIŠTENI SMO UNIŠTENI SMO--
+b: AAAAAA MI SMO UNIŠTENI! SLOMLJENI SMO SLOMLJENI SMO--
 
 ```
 music(null);
@@ -1248,7 +1248,7 @@ setTimeout(function(){
 },801);
 ```
 
-h2: gospode ja sam u haosu.
+h2: gospode kakav sam ja haos.
 
 ```
 publish("act2",["party_hunter",7]);
@@ -1268,7 +1268,7 @@ r: Mislim, baš juče sam čula da je neko imao nervni slom i slupao svoj telefo
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: Milsim, baš juče sam čula da se neko sklupčao kao armadilo i plakao u javnosti!
+r: Mislim, baš juče sam čula da se neko sklupčao kao armadilo i plakao u javnosti!
 {{/if}}
 
 ```
@@ -1390,7 +1390,7 @@ h: Bogati ukus "začepi glas u glavi", sa suptilnim notama "više nikada ništa 
 
 b: Ovo je loše, osobo. Ovo je mnogo, mnogo loše.
 
-[To je *upravo* ko+ako počinje zavisnost.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
+[To je *upravo* kako počinje zavisnost.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [*Znao* sam da je domaćin duboko zeznut!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1667,7 +1667,7 @@ h2: ne ne, samo, ovaj, trčim maraton. brzinom svetla.
 
 r: Dođi na moju žurku sledećeg vikenda, šećeru. Napraviću ti nešto još jače.
 
-h2: okej hvala moram da idem idem idem idem idem
+h2: okej hvala moram da trčim trčim trčim trčim trčim
 
 r: Ti i ja, srećo, mi ćemo pokazati životinji ko je glavni!
 
