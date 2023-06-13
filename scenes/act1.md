@@ -416,7 +416,7 @@ h: Ha. Fid na Fejsu kaže da se dešava žurka ovog vikenda.
 
 `bb({eyes:"uncertain"});`
 
-b: Zar taj čudak ne održava žurke *svakog* vikenda?
+b: Zar ti čudaci ne održavaju žurke *svakog* vikenda?
 
 `bb({eyes:"uncertain_right"});`
 
@@ -1148,7 +1148,7 @@ hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: O, imam podudaranje! Sladak je!
+h: O, imam podudaranje! Slatka je!
 
 ```
 bb({eyes:"narrow_eyebrow"});
@@ -1170,7 +1170,7 @@ b: OPASNOST OPASNOST OPASNOST OPASNOST OPASNOST
 
 [Mi *iskorišćavamo* druge ljude.](#act1f_using_others)
 
-[TAJ LIK JE SERIJSKI UBICA](#act1f_killer)
+[ONA JE SERIJSKI UBICA](#act1f_killer)
 
 # act1f_used_by_others
 
@@ -1295,7 +1295,7 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: Držaće nas u bunaru i terati da jedemo beli hleb da nas ugoje kako bi mogli da nose tvoju kožu kao odelo!
+b: Držaće nas u bunaru i terati da jedemo beli hleb da nas ugoje kako bi mogla da nosi tvoju kožu kao odelo!
 {{/if}}
 
 {{if _.parasite}}
@@ -1347,7 +1347,7 @@ h:
 {{if _.subtweet}}"pričaju nam iza leđa"... {{/if}}
 {{if _.badnews}}"svet gori"... {{/if}}
 {{if _.hookuphole}}"umrećemo sami"... {{/if}}
-{{if _.serialkiller}}"on je serijski ubica"... {{/if}}
+{{if _.serialkiller}}"ona je serijski ubica"... {{/if}}
 {{if _.catmilk}}"mačke ne vare mleko"... {{/if}}
 {{if _.pokemon}}^usrana^ parodija... {{/if}}
 
@@ -1602,7 +1602,7 @@ b: Telefon ti daje napade panike!
 
 `bb({eyes:"anger"})`
 
-b: Cukerberg i kompanija otimaju tvoje mentalno zdravlje za njihov kapitalistički novac!
+b: Zukerberg i kompanija otimaju tvoje mentalno zdravlje za njihov kapitalistički novac!
 
 ```
 bb({body:"fear", eyes:"fear"});
