@@ -168,13 +168,13 @@ r: ^Šupci^ koji upravljaju svetom *nama* prave anksioznost i depresiju,
 publish("act3",["roofhunter",18]);
 ```
 
-r: A onda prave TED razgovore da nam kažu da "prihvatimo" što smo sjebani, i "prihvatimo" tog sadističnog demona u našim glavama!
+r: A onda prave TED razgovore da nam kažu da "prihvatimo" što smo s^jeb^ani, i "prihvatimo" tog sadističnog demona u našim glavama!
 
 ```
 publish("act3",["roofhunter",6]);
 ```
 
-r: Srećo, znam da *ti* znaš da ta životinja *povređuje* ljude kao što smo mi. Ona *muči* ljude kao što smo mi.
+r: Srećo, znam da *ti* znaš da ta životinja *povređuje* ljude kao što smo mi. Ona nas *muči*.
 
 ```
 publish("act3",["roofhunter",19]);
@@ -418,9 +418,9 @@ h: Št- Izvini, *zahvalnost?*
 
 `bb({ eyes:"angry" });`
 
-b: Ovo je baš zašto *postojim!* Zato što ljudi ne mogu da zaštite sami sebe!
+b: Ovo je razlog zašto ja *postojim!* Zato što ljudi ne mogu da zaštite sami sebe!
 
-b: Pokušavao sam da zaštitm tvoju glupavu glavu čitav svoj život a sad ćeš samo--
+b: Pokušavao sam da zaštitm tvoju ludu glavu čitav svoj život a sad ćeš samo--
 
 ```
 hong({body:"drink"});
@@ -467,7 +467,7 @@ h: Da, ti trula, krvava kretenčino! ^Jebeno^ si zeznuo!
 
 h: Imaš još neku napomenu, Kolumbo?
 
-[Ako se osvetiš meni to neće rešti problem!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Ako mi se osvetiš to neće rešti problem!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
 [Ali ovaj put sam *zapravo* u pravu!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
@@ -648,14 +648,14 @@ h: Više ništa ne osećam.
 
 `bb({mouth:"sorry", eyes:"sorry_down"});`
 
-b: Toliko sam bio opsednut da te ništa ne povredi da nisam shvatio da sam *ja* taj koji povređuje.
+b: Toliko sam bio opsednut time da te ništa ne povredi da nisam shvatio da sam *ja* taj koji povređuje.
 
 ```
 bb({ eyes:"sorry"});
 hong({ body:"yell_2", mouth:"yell", eyes:"blank" });
 ```
 
-h: NE. ^ZAJEBA^VAJ!
+h: NE. ^ZAJEBA^VAJ.
 
 `hong({ body:"yell_1" });`
 
@@ -766,7 +766,7 @@ b: Žao mi je.
 
 `bb({eyes:"sorry_down"});`
 
-b: Bio sam tako opsednut pokušajima da te zaštitim od boli da nisam shvatao da ti *ja* povređujem.
+b: Bio sam tako opsednut pokušajima da te zaštitim od boli da nisam shvatao da te *ja* povređujem.
 
 `bb({eyes:"sorry_up"});`
 
@@ -973,7 +973,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: Jesu li upravo zaključali vrata?
+r: Jel ona to zaključala vrata?
 
 ```
 Game.clearAll();
