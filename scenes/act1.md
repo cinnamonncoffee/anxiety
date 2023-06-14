@@ -1353,7 +1353,7 @@ h:
 
 h: samo želim da živim svoj život.
 
-h: samo ne želim da osećam svu ovu... bol.
+h: samo želim da se oslobodim ovog... bola.
 
 `bb({eyes:"look_sad"});`
 
