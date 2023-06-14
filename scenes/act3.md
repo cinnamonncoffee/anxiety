@@ -23,7 +23,7 @@ publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",3]);
 ```
 
-h2: *Ah* to pogađa u metu.
+h2: *Ah* to pogađa pravo u metu.
 
 ```
 publish("act3",["roofhunter",2]);
@@ -406,7 +406,7 @@ hong({ body:"normal", mouth:"angry", eyes:"angry" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: Videla sam Rusa kako radi isto na Jutjubu.
+h: Videla sam jednog Rusa kako radi isto na Jutjubu.
 
 (#act3_bad_2)
 
@@ -572,9 +572,9 @@ b: *Ti* stavljaš sebe u opasnost. Tvoji takozvani prijatelji koriste *tebe*. I 
 
 `bb({ eyes:"sad" });`
 
-b: So please, human... why don't you believe me?!
+b: Tako da molim te, osobo... zašto mi ne veruješ?!
 
-h: Because you never believed in *me*.
+h: Zato što ti nikada nisi verovao u *mene*.
 
 (#act3_bad_3)
 
@@ -583,13 +583,13 @@ h: Because you never believed in *me*.
 
 `bb({ eyes:"angry" });`
 
-b: Other guard-wolves have humans who actually take time to patiently train them, to *learn* to work together,
+b: Drugi vukovi-čuvari imaju osobe koje ih zapravo strpljivo treniraju da *nauče* da rade zajedno,
 
-b: Rather than hate the guard-wolves for trying to protect them! So why can't you jus--
+b: a ne da mrze svoje vukove-čuvare što ih štite! Pa zašto ti ne mož--
 
 `bb({ eyes:"normal" });`
 
-h: Wrong ^fuck^ing answer.
+h: Pogrešan ^jeb^eni odgovor.
 
 (#act3_bad_3)
 
@@ -614,29 +614,29 @@ bb({ body:"dead" });
 
 (...999)
 
-h: *"The only thing to fear is fear itself."*
+h: *"Jedina stvar koje se treba plašiti je sam strah."*
 
 `hong({ body:"look_up", mouth:"happy", eyes:"blank" });`
 
-h: *"Don't worry, be happy!"*
+h: *"Ne brini, budi srećan!"*
 
 `hong({ body:"normal", mouth:"normal", eyes:"normal" });`
 
-h: All the wise folk of our time agree: negative emotions are *bad!*
+h: Svi mudri ljudi našeg vremena se slažu: negativne emocije su *loše!*
 
 `hong({ eyes:"less_angry" });`
 
-h: Duh! That's why they're called *negative!*
+h: Logično! Zato se zovu *negativne!*
 
-b: human... please...
+b: osobo... molim te...
 
 `hong({ eyes:"normal" });`
 
-h: A while back, I said: “I just want to be free from all this pain.”
+h: Ranije sam rekla: “Samo želim da se oslobodim ovog bola.” (PROVERITI)
 
-h: I got my wish. I no longer feel pain, or fear, or anxiety...
+h: Želja mi se ostvarila. Više ne osećam bol, ili strah, ili anksioznost...
 
-h: I don't feel anything at all.
+h: Više ništa ne osećam.
 
 `_.a3_ending = "jump";`
 
@@ -648,22 +648,22 @@ h: I don't feel anything at all.
 
 `bb({mouth:"sorry", eyes:"sorry_down"});`
 
-b: I was so obsessed with making sure nothing else hurt you, that I didn't realize *I* was creating the hurt.
+b: Toliko sam bio opsednut da te ništa ne povredi da nisam shvatio da sam *ja* taj koji povređuje.
 
 ```
 bb({ eyes:"sorry"});
 hong({ body:"yell_2", mouth:"yell", eyes:"blank" });
 ```
 
-h: NO. S^HIT^.
+h: NE. ^ZAJEBA^VAJ!
 
 `hong({ body:"yell_1" });`
 
-h: ^GODDAMN^. It really took you this long to finally figure it out?!
+h: ^JEBOTE^. Stvarno ti je trebalo ovoliko da to shvatiš?!
 
 `hong({ body:"cry", mouth:"cry", eyes:"blank" });`
 
-h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't you realize this sooner?...
+h: Mogao si da nam uštediš toliko vremena, ti veliki čupavi glupane. Kako nisi to shvatio ranije?...
 
 `_.apologized_for_hurt = true;`
 
@@ -675,13 +675,13 @@ h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't y
 
 `hong({ body:"normal", mouth:"angry", eyes:"look_right" });`
 
-h: ...you're *sorry.*
+h: ...tebi je *žao.*
 
 `hong({ eyes:"angry", MOUTH_LOCK:true });`
 
 h: ...
 
-h: Sorry for *what*?
+h: Žao zbog *čega*?
 
 (#act3_good_2q)
 
@@ -703,22 +703,22 @@ h: Sorry for *what*?
 
 `hong({ body:"normal", mouth:"angry", eyes:"less_angry" });`
 
-[I'm sorry I wasn't a good protector.](#act3_good_3_protector)
+[Žao mi je što te nisam dobro štitio.](#act3_good_3_protector)
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[Žao mi je što te nisam poštovao.](#act3_good_3_respect)
 
-[I'm sorry.](#act3_good_4)
+[Žao mi je.](#act3_good_4)
 
 
 # act3_good_2q_not_already_apologized
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" }, 0);`
 
-[I'm sorry I have a terrible human!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
+[Žao mi je što imam užasnu osobu!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[Žao mi je što te nisam poštovao.](#act3_good_3_respect)
 
-[I'm sorry I hurt you.](#act3_good_3_hurt)
+[Žao mi je što sam te povredio.](#act3_good_3_hurt)
 
 
 
@@ -726,19 +726,19 @@ h: Sorry for *what*?
 
 `bb({eyes:"sorry_down"});`
 
-b: It's my duty to warn you against *real* danger, but I kept barking at cars and the mailman.
+b: Moj je posao da te upozorim o *pravoj* opasnosti, ali sam neprestano lajao na aute i poštare.
 
 `bb({eyes:"sorry_up"});`
 
-b: Barking at shadows. Barking so much.
+b: Lajao sam na senke. Previše sam lajao.
 
 `bb({eyes:"sorry"});`
 
-b: It only makes sense that you'd want to muzzle me.
+b: Skroz mi ima smisla da želiš da mi staviš brnjicu.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Žao mi je.
 
 (#act3_good_4)
 
@@ -748,15 +748,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was supposed to be *your* loyal guard-dog, but I acted as if you were supposed to obey *me*.
+b: Trebao sam da budem *tvoj* verni vuk-čuvar, ali sam se ponašao kao da ti treba da slušaš *mene*.
 
 `bb({eyes:"sorry_up"});`
 
-b: There's a difference between a protector and a prison warden, and I crossed the line.
+b: Postoji razlika između zaštitnika i nadzornika u zatvoru, a ja sam prešao granicu.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Žao mi je.
 
 (#act3_good_4)
 
@@ -766,15 +766,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was so obsessed with trying to protect you from being hurt, I never stopped to realize *I* was hurting you.
+b: Bio sam tako opsednut pokušajima da te zaštitim od boli da nisam shvatao da ti *ja* povređujem.
 
 `bb({eyes:"sorry_up"});`
 
-b: I was a bad dog.
+b: Bio sam loš vuk.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Žao mi je.
 
 (#act3_good_4)
 
@@ -792,11 +792,11 @@ h: ...
 hong({ body:"stop", mouth:"stop", eyes:"blank" });
 ```
 
-h: Yeah, well, this was a dumb idea anyway.
+h: Da, pa, ovo je ionako bila glupa ideja.
 
-h: I only did this to mess you up, and, well, I messed you up.
+h: Uradila sam ovo samo da te nateram da shvatiš, i, evo, shvatio si.
 
-h: Let's just call this round a tie, okay?
+h: Hajde da ova runda bude nerešena, okej?
 
 ```
 bb({ mouth:"sorry", eyes:"sorry" });
@@ -805,11 +805,11 @@ bb({ MOUTH_LOCK:true });
 
 b: ...
 
-b: Okay.
+b: Okej.
 
-h: Okay.
+h: Okej.
 
-n: *TIE*
+n: *NEREŠENO*
 
 `_.a3_ending = "walkaway";`
 
@@ -885,26 +885,26 @@ publish("act3",["roofhunter",27]);
 
 `Game.FORCE_CANT_SKIP = false;`
 
-r: Oh *come on*. After all that animal's done to you, you're just *giving up?*
+r: O *hajde*. Posle svega što ti je ta životinja uradila, ti *odustaješ?*
 
-r: What's the matter, kid? Are you *scared?*
+r: Šta je bilo, srećo? Jel' se *bojiš?*
 
 ```
 publish('hong-next');
 publish("act3",["roofhunter",26]);
 ```
 
-h2: Yes.
+h2: Da.
 
-h2: I'm scared.
-
-`publish('hong-next')`
-
-h2: And that's okay!
+h2: Bojim se.
 
 `publish('hong-next')`
 
-h2: It's okay to be scared.
+h2: I to je u redu!
+
+`publish('hong-next')`
+
+h2: U redu je da se bojim.
 
 `publish('hong-next')`
 
@@ -973,7 +973,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: Did they just lock the door?
+r: Jesu li upravo zaključali vrata?
 
 ```
 Game.clearAll();
@@ -1063,7 +1063,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no...
+b: ne...
 
 (...501)
 
@@ -1082,7 +1082,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no no no
+b: ne ne ne
 
 (...501)
 
@@ -1150,7 +1150,7 @@ Game.FORCE_TEXT_Y = 325;
 Game.OVERRIDE_FONT_SIZE = 50;
 ```
 
-b: NO!
+b: NE!
 
 (...400)
 
