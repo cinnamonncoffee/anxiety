@@ -14,7 +14,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n3: (game auto-saved)
+n3: (igrica je automatski sačuvana)
 
 ```
 Game.clearText();
@@ -208,42 +208,42 @@ hong({body:"sigh_2"});
 bb({eyes:"look_down"});
 ```
 
-h: *sigh*
+h: *uzdah*
 
 ```
 hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: Znači šta je u stvari poenta ove priče?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
+h: Đta smo uopšte *naučili*? *Ja* sam bila glupa, *moji "prijatelji"* su me koristili, i zamalo smo prokleto *umrli*.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[Da, da ne pominjem račun iz bolnice.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[Da, da ne pominjem oštećenje jetre.](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[Da, to *jeste* bio najgori mogući scenario.](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[Da, bio sam u pravu.](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: Tačno. Mislim da moje osiguranje ne pokriva "povrede zbog kretenskog ponašanja".
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: Ali ipak... preživeli smo!
 
 `hong({eyes:"normal"});`
 
@@ -255,11 +255,11 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: We definitely shaved a few years off our life expectancy...
+b: Definitivno smo skratili sebi život za koju godinu...
 
 `bb({eyes:"surprise"});`
 
-b: But at least we still *have* a life expectancy! We survived!
+b: Ali smo bar još uvek *živi*! Preživeli smo!
 
 ```
 hong({eyes:"surprise"});
@@ -274,13 +274,13 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: And yet...
+b: Ali ipak...
 
 h: Hm?
 
 `bb({eyes:"surprise"});`
 
-b: We survived!
+b: Preživeli smo!
 
 (#act4b)
 
@@ -288,7 +288,7 @@ b: We survived!
 
 `bb({eyes:"normal_d"});`
 
-b: But... you were right, too.
+b: Ali... i ti si bila u pravu.
 
 `hong({eyes:"surprise"});`
 
@@ -296,11 +296,11 @@ h: Hm?
 
 `bb({eyes:"normal"});`
 
-b: I *was* the wolf who cried wolf. So when *actual* danger came, you – justifiably – didn't believe me.
+b: Ja sam *zaista* bio kao dečak koji je vikao "vuk". Kada je došla *prava* opasnost, ti mi - sa pravom - nisi poverovala.
 
 `bb({eyes:"surprise_r"});`
 
-b: And yet, we survived!
+b: Ali ipak, preživeli smo!
 
 (#act4b)
 
@@ -311,16 +311,16 @@ bb({eyes:"normal", mouth:"normal"});
 hong({eyes:"normal", mouth:"normal"});
 ```
 
-b: Despite everything, we're still here.
+b: Uprkos svemu, još uvek smo ovde.
 
 `hong({eyes:"suspect"});`
 
 {{if _.INJURED}}
-h: You seem pretty calm considering we just had a near-death experience.
+h: Činiš mi se poprilično mirno s obzirom na to da smo zamalo umrli.
 {{/if}}
 
 {{if !_.INJURED}}
-h: You seem pretty calm considering we just had a *near*-near-death experience.
+h: Činiš mi se poprilično mirno s obzirom na to da smo *zamalo* zamalo umrli.
 {{/if}}
 
 ```
@@ -328,21 +328,21 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Well, it makes everything else less scary in comparison. It's also got me thinking.
+b: Pa, u poređenju sa svim ostalim to čini stvari manje strašnima. Nateralo me je na razmišljanje.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: If me fighting you sucks, because it doesn't protect you...
+b: Ako je loše kada se ja borim protiv tebe, zato što te to ne štiti...
 
-h: But me fighting you *also* sucks, because it just makes you yell louder...
+h: Ali je loše i kada se ti boriš protiv mene, zato što samo glasnije vičeš...
 
 `bb({eyes:"normal_r"})`
 
-b: Then maybe...
+b: Onda možda...
 
 `bb({eyes:"normal"})`
 
-h: Maybe we don't have to fight.
+h: Možda ne moramo da se borimo.
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -381,15 +381,15 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: I'm not a Big Bad Wolf. But I'm not a guard-wolf either.
+b: Ja nisam Veliki Zli Vuk. Ali nisam ni vuk-čuvar.
 
 `bb({eyes:"sad_d"})`
 
-b: I'm a battered shelter dog.
+b: Ja sam pretučeni pas lutalica.
 
 `bb({eyes:"sad"})`
 
-b: We've been through rough stuff. Maybe trauma or neglect. That's why I sometimes over-react and go:
+b: Preživeo sam loše stvari. Možda traumu ili zanemarivanje. Zato nekada preterano reagujem i krenem sa:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -400,7 +400,7 @@ Game.FORCE_TEXT_DURATION = 90;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: YAP YAP YAP YAP YAP
+b: AV AV AV AV AV
 
 (...1884)
 
@@ -410,35 +410,35 @@ Game.FORCE_CANT_SKIP = false;
 bb({body:"normal", mouth:"scream", eyes:"scream_sad"});
 ```
 
-b: But I don't *want* to be a cowardly dog! I want to protect you! I want to be a good dog!
+b: Ali ja *ne želim* da budem kukavički pas! Želim da te štitim! Želim da budem dobar pas!
 
 `bb({eyes:"sad", mouth:"normal"});`
 
-b: Human... will you help tame this wolf?
+b: Osobo...hoćeš li pomoći da se ovaj vuk pripitomi?
 
 `hong({eyes:"sad"})`
 
-h: I... I'll try.
+h: Pa...Pokušaću.
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: Okay. Healthy relationship with emotions. Relationships need communication. So, let's communicate.
+h: U redu. Zdrav odnos sa osećanjima. Odnosima treba komunikacija. Hajde da komuniciramo.
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
-h: The next five minutes are going to sound super cheesy, but let's fake it 'til we make it.
+h: Narednih pet minuta će zvučati jako otrcano, ali probajmo da lažiramo dok ne uspemo.
 
 ```
 hong({body:"hands_2", mouth:"normal"});
 ```
 
-h: Dear inner wolf... how are *you* feeling?
+h: Dragi unutrašnji vuče... kako se *ti* osećaš?
 
-n2: TOTAL FEARS USED:
+n2: STRAHOVI KORIŠĆENI:
 
-n2: *HARMED* {{_.attack_harm_total}}, *UNLOVED* {{_.attack_alone_total}}, *BAD PERSON* {{_.attack_bad_total}}
+n2: *POVREĐIVANJE* {{_.attack_harm_total}}, *NEVOLJEN* {{_.attack_alone_total}}, *LOŠA OSOBA* {{_.attack_bad_total}}
 
-n2: WHAT FEAR DO YOU WANT TO TALK ABOUT FIRST? (YOU CAN DO THE OTHERS LATER)
+n2: O KOM STRAHU ŽELIŠ DA PRIČAŠ PRVO? (O OSTALIM ĆEŠ MOĆI KASNIJE)
 
 ```
 _.a4_fears_discussed = 0;
@@ -447,11 +447,11 @@ hong({body:"normal"});
 bb({eyes:"normal"});
 ```
 
-[I'm scared we'll be harmed.](#act4_harm)
+[Plašim se da ćemo se povrediti.](#act4_harm)
 
-[I'm scared we'll be alone.](#act4_alone)
+[Plašim se da ćemo biti sami.](#act4_alone)
 
-[I'm scared we're bad people.](#act4_bad)
+[Plašim se da smo loši ljudi.](#act4_bad)
 
 # act4_harm
 
