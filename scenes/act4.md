@@ -462,92 +462,92 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: I want to protect your need for physical safety,
+b: Želim da sačuvam tvoju fizičku sigurnost,
 
 `bb({eyes:"sad_d"})`
 
-b: But the *whole world* seems so dangerous. So full of tragedy and evil.
+b: Ali je *ceo svet* toliko opasan. Pun tragedije i zla.
 
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Nemam pojma, *ja* sam za sad rekao dovoljno. Šta *ti* imaš da kažeš, osobo?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: U redu, sad ponovo ti, osobo. Šta misliš?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Još neka misao, osobo?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[You're right. So let's protect ourselves.](#act4_harm_skills)
+[U pravu si. Hajde onda da se zaštitimo.](#act4_harm_skills)
 
-[Let's expose ourselves to *more* danger.](#act4_harm_exposure)
+[Izložimo se opasnosti *još više*.](#act4_harm_exposure)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "physical safety";`
+[Hvala ti.](#act4_thanks) `_.thanks_for = "physical safety";`
 
 # act4_harm_skills
 
 `bb({eyes:"look_down", body:"paw"})`
 
-b: But... how? I have fangs and claws, but I'm just a metaphor.
+b: Ali... kako? Imam očnjake i kandže, ali ja sam samo metafora.
 
 ```
 bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: We could learn self-defense? Join a community that protects each other? Improve our general health & personal boundaries?
+h: Mogli bismo da naučimo samoodbranu? Da se pridružimo zajednici u kojoj članovi čuvaju jedni druge? Generalno poboljšamo naše zdravlje i lične granice?
 
 ```
 bb({ eyes:"annoyed_r" });
 hong({ body:"normal", eyes:"normal" });
 ```
 
-b: Maybe, but...
+b: Možda, ali...
 
-[Where do we even start?](#act4_harm_skills_start)
+[Kako da krenemo sa tim?](#act4_harm_skills_start)
 
-[What if they still don't work?](#act4_harm_skills_work)
+[Šta ako to ipak ne uspe?](#act4_harm_skills_work)
 
-[What if we go overboard on "safety"?](#act4_harm_skills_overboard)
+[Šta ako preteramo u "sigurnosti"?](#act4_harm_skills_overboard)
 
 # act4_harm_skills_start
 
 `bb({ eyes:"sad_d" })`
 
-b: There's so much to do, so much we need to fix about ourselves. What do we even *begin* with?
+b: Imamo toliko stvari da radimo, toliko stvari koje treba da propravimo kod sebe. Kako uopšte da *počnemo*?
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
-h: We're beginning right now.
+h: Odmah ćemo početi?
 
 `bb({ eyes:"normal", mouth:"narrow" })`
 
-b: Eh?
+b: Hm?
 
 ```
 bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: We're practicing good communication right now. Which will help us detect danger better, with fewer false positives,
+h: Upravo sad vežbamo dobru komunikaciju. Koja ćenam pomoći da bolje otkrivamo opasnost, sa manje lažnih pozitivnih,
 
 `hong({ eyes:"surprise" });`
 
-h: And *that* will help protect us from harm!
+h: I *to* će nam pomoći da se zaštitimo!
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Therefore: this *is* self-defense training.
+h: Dakle: ovo *jeste* trening samoodbrane.
 
 `bb({ eyes:"normal_r" })`
 
-b: Huh. I was expecting more of this:
+b: Ha. Očekivao sam više ovoga:
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -567,26 +567,26 @@ sfx("hiya");
 
 `bb({ eyes:"normal" });`
 
-h: True, there's no way to 100% protect ourselves...
+h: Tačno, ne postoji način da se 100% zaštitimo...
 
 `hong({ body:"one_up" });`
 
-h: But even a 1% improvement is still worth something, right?
+h: Ali čak i 1% poboljšanja vredi nešto, zar ne?
 
 ```
 bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: You're seeing the glass as not 99% empty, but 1% full?
+b: Vidiš čašu ne kao 99% praznu, nego 1% punu?
 
 `bb({ eyes:"normal" });`
 
-h: Which is still worth something if you're stranded in the desert.
+h: I to je vrlo značajno ako si izgubljen u pustinji.
 
 `bb({ eyes:"closed" });`
 
-b: Well. Bottoms up, then.
+b: Ha. Živeli, onda.
 
 (#act4_something_else)
 
@@ -594,7 +594,7 @@ b: Well. Bottoms up, then.
 
 `bb({ body:"chest", eyes:"annoyed" })`
 
-b: I mean, the whole reason you ignored my warnings was because *I* went overboard with safety! 
+b: Mislim, čitav razlog zašto si ignorisala moja upozorenja bio je što sam *ja* preterao sa sigurnošću! 
 
 `bb({ body:"normal", eyes:"normal" })`
 
