@@ -598,22 +598,22 @@ b: Mislim, čitav razlog zašto si ignorisala moja upozorenja bio je što sam *j
 
 `bb({ body:"normal", eyes:"normal" })`
 
-h: Naw, you're right. We would want to do safety in moderation. Everything in moderation.
+h: Ne, u pravu si. Želimo da budemo umereno sigurni. Treba biti umeren u svemu.
 
 `bb({ eyes:"suspect" })`
 
-b: Sorry, *EVERYTHING* in moderation?
+b: Izvini, umereni u *SVEMU*?
 
 `hong({ eyes:"annoyed" })`
 
-h: *A moderate number of things* in moderation.
+h: Umereni u *umerenom broju stvari*.
 
 ```
 bb({ eyes:"closed" });
 hong({ eyes:"normal" });
 ```
 
-b: Thank you for making your statements recursively self-consistent.
+b: Hvala ti što održavaš svoje izjave samodoslednima.
 
 (#act4_something_else)
 
@@ -622,45 +622,45 @@ b: Thank you for making your statements recursively self-consistent.
 
 `bb({ mouth:"scream_talk", eyes:"scream", MOUTH_LOCK:true });`
 
-b: *WHAT*
+b: *ŠTA*
 
 ```
 bb({ mouth:"narrow", eyes:"suspect" });
 hong({ body:"one_up" });
 ```
 
-h: I mean, let's say a dog is scared of thunder.
+h: Mislim, recimo da se pas boji grmljavine.
 
 `hong({ body:"hands_1" });`
 
-h: One trick trainers use is to play a recording of thunder at a low volume, then give the dog a treat for staying calm.
+h: Jedan od trikova koje koriste treneri je da puštaju snimak grmljavine tiho, pa daju psu poslasticu jer je ostao miran.
 
 `hong({ body:"hands_2" });`
 
-h: Over several days, the trainer raises the volume bit by bit, until the dog has overcome their fear of thunder.
+h: Tokom nekoliko dana, trener pojačava snimak, dok pas ne pobedi svoj strah od grmljavine.
 
 ```
 hong({ body:"normal", eyes:"surprise" });
 bb({ mouth:"normal", eyes:"normal" });
 ```
 
-h: It's called exposure therapy!
+h: To je terapija izlaganja!
 
 `hong({ body:"point", eyes:"normal" });`
 
-h: Since you're a dog, it should work for you too, right? All mammals have the same fight-or-flight response.
+h: Pošto si ti pas, trebalo bi da radi i na tebi, zar ne? Svi sisari imaju borba-beg reakciju.
 
 `hong({ body:"normal" });`
 
-[What if we desensitize *too* much?](#act4_harm_exposure_overboard)
+[Šta ako se *previše* izložimo?](#act4_harm_exposure_overboard)
 
-[What if we're exposed to *real* danger?](#act4_harm_exposure_hurt)
+[Šta ako smo izloženi *pravoj* opasnosti?](#act4_harm_exposure_hurt)
 
-[I'm a wolf, not a dog.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
+[Ja sam vuk, ne pas.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
 
 # act4_harm_exposure_dog
 
-h: And I'll show you kindness and patience 'til you're domesticated into a cute lil' puppy.
+h: Ja ću biti dobra i strpljiva dok te ne pripitomim u slatku malu kucu.
 
 `bb({ MOUTH_LOCK:true })`
 
@@ -668,7 +668,7 @@ b: ...
 
 `bb({ eyes:"sad", mouth:"smile" })`
 
-b: D'aw.
+b: Aww
 
 (#act4_something_else)
 
@@ -676,15 +676,15 @@ b: D'aw.
 
 `bb({ eyes:"annoyed" })`
 
-b: We *just* saw what happens if you shut down your fear – you put yourself in *actually* dangerous situations.
+b: *Upravo* smo videli šta se dogodi ako ugasiš svoj strah - staviš sebe u *prave* opasne situacije.
 
 `bb({ eyes:"angry_r", body:"one_up" })`
 
-b: Besides, won't *too* much desensitization turn us into psychopaths?
+b: Sem toga, zar nas neće previše desentizacije pretvoriti u psihopate?
 
 `bb({ mouth:"scream", eyes:"scream", body:"two_up" })`
 
-b: Soon we'll give ourselves treats while watching snuff murder porn!
+b: Uskoro ćemo davati sebi poslastice dok gledamo Soon we'll give ourselves treats while watching snuff murder porn!
 
 `hong({ eyes:"annoyed" })`
 
