@@ -488,7 +488,7 @@ b: Još neka misao, osobo?
 
 [Izložimo se opasnosti *još više*.](#act4_harm_exposure)
 
-[Hvala ti.](#act4_thanks) `_.thanks_for = "physical safety";`
+[Hvala ti.](#act4_thanks) `_.thanks_for = "moju fizičku sigurnost";`
 
 # act4_harm_skills
 
@@ -684,27 +684,27 @@ b: Sem toga, zar nas neće previše desentizacije pretvoriti u psihopate?
 
 `bb({ mouth:"scream", eyes:"scream", body:"two_up" })`
 
-b: Uskoro ćemo davati sebi poslastice dok gledamo Soon we'll give ourselves treats while watching snuff murder porn!
+b: Uskoro ćemo davati sebi poslastice dok gledamo ilegalne porniće sa ubijanjem!
 
 `hong({ eyes:"annoyed" })`
 
-h: I... think there's a line between that and the thunder.
+h: Mislim... mislim da postoji linija između toga i grmljavine.
 
 `bb({ body:"normal", mouth:"normal", eyes:"suspect" })`
 
-b: But exactly *where*, human? *Where?!*
+b: Ali *gde* je ona, osobo? *Gde?!*
 
 `hong({ eyes:"surprise", body:"one_up" })`
 
-h: I don't know. But *you* can help me!
+h: Ne znam. Ali *ti* možeš da mi pomogneš!
 
 `hong({ eyes:"normal", body:"normal" })`
 
-h: Working and negotiating with you, we'll draw that line.
+h: Dok radim i pregovaram sa tobom, nacrtaćemo tu liniju.
 
 `bb({ body:"paw", mouth:"narrow", eyes:"closed" })`
 
-b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
+b: Okej. Ali ja nemam suprotne palčeve, tako da ćeš ti morati da crtaš.
 
 (#act4_something_else)
 
@@ -713,11 +713,11 @@ b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
 `bb({ body:"two_up", eyes:"angry_r" })`
 
 {{if _.INJURED}}
-b: For example: we jumped off a freaking *roof!*
+b: Na primer: skočili smo sa prokletog *krova!*
 {{/if}}
 
 {{if !_.INJURED}}
-b: For example: we almost jumped off a freaking *roof!*
+b: Na primer: zamalo smo skočili sa prokletog *krova!*
 {{/if}}
 
 ```
@@ -725,17 +725,17 @@ hong({ eyes:"annoyed" });
 bb({ body:"normal", eyes:"annoyed" });
 ```
 
-h: Nah you're right. One *can* go too far.
+h: Ne u pravu si. *Može* da se ode predaleko.
 
 `hong({ eyes:"normal" });`
 
-h: But that's why, if we do exposure therapy, we'll start small, and make small steps upward.
+h: Ali baš zato, ako krenemo sa terapijom izlaganja, krećemo od malih stvari i pravimo male korake ka napred.
 
-h: Just before we hit *actual* danger, we stop.
+h: Pre nego što dođemo do *prave* opasnosti, prestaćemo.
 
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
-b: Yeah I draw the line between hearing loud thunder, and standing in a storm with a tall pointy hat.
+b: E pa postavljam granicu između slušanja jake grmljavine i stojanja sa visokom šiljatom kapom tokom oluje.
 
 (#act4_something_else)
 
@@ -763,11 +763,11 @@ b: ...
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait, no arguments for or against what I'm feeling? Just... "thank you"?
+b: Čekaj, nemaš argumenata za ili protiv mojih osećanja? Samo... "hvala ti"?
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
-h: Yeah! Thank you for showing your concern for my {{_.thanks_for}}.
+h: Da! Hvala ti što se brineš za {{_.thanks_for}}.
 
 ```
 bb({ eyes:"closed_annoyed", MOUTH_LOCK:true });
@@ -776,36 +776,36 @@ hong({ eyes:"normal", body:"normal" });
 
 b: ...
 
-h: You okay?
+h: Jesi li dobro?
 
 `bb({ eyes:"super_sad", mouth:"narrow" });`
 
-b: You've never said *thank you* to me before.
+b: Nikada mi ranije nisi rekla *hvala*.
 
 `hong({ mouth:"smile" });`
 
-h: Aw you big fuzzy-wuzzy panic-wolf.
+h: Ti veliki čupavi paničarski vuče.
 
 (#act4_something_else)
 
 # act4_thanks_2
 
-h: Even if you over-react, I appreciate you looking out for my {{_.thanks_for}}.
+h: Čak iako preterano odreaguješ, cenim što paziš na {{_.thanks_for}}.
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait... you're not just repeating "thank you" to avoid actually talking about these fears, are you?
+b: Čekaj... ne ponavljaš to "hvala ti" kako ne bi pričala o svojim strahovima, zar ne?
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"annoyed", body:"chin" });
 ```
 
-h: Well, stuff's complicated, and I don't always have answers ready.
+h: Pa, to je komplikovano, a nemam uvek spreman odgovor.
 
 `hong({ eyes:"annoyed_l", body:"one_up" })`
 
-h: It's not like life gives you a list of 3 pre-made dialogue responses.
+h: Život ti ne daje listu od tri isprogramirana izbora u dijalogu.
 
 `hong({ eyes:"normal", mouth:"smile", body:"normal" })`
 
