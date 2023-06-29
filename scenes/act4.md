@@ -809,34 +809,34 @@ h: Život ti ne daje listu od tri isprogramirana izbora u dijalogu.
 
 `hong({ eyes:"normal", mouth:"smile", body:"normal" })`
 
-h: But for now, I can at least say thanks.
+h: Ali za sada, mogu bar da se zahvalim.
 
-b: Well, thank you too, for listening to me patiently.
+b: Pa, hvala i tebi, što me strpljivo slušaš.
 
 `bb({ eyes:"closed" });`
 
-b: You small hairless flesh-mammal.
+b: Ti mali mesnati sisaru.
 
 (#act4_something_else)
 
 # act4_thanks_3
 
-h: Even if your yapping scares me, you're simply trying to protect my {{_.thanks_for}}.
+h: Iako me tvoje lajanje plaši, ti samo pokušavaš da zaštitiš {{_.thanks_for}}.
 
 `bb({ eyes:"smile_r" });`
 
-b: Okay, if you keep flattering me like this, the internet's gonna get some weird ideas about us.
+b: Okej, ako nastaviš da mi laskaš, internet će dobiti neke čudne ideje o nama.
 
 ```
 bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: C'mon, I'm just a vulnerable college-age kid and you're a big, scary wolf. What's the worst that cou--
+h: Ma 'ajde, ja sam samo ranjiva devojka sa faksa a ti si veliki, strašni vuk. Šta je najgore što m--
 
 `hong({ eyes:"normal", body:"point" });`
 
-h: Actually, do not answer that.
+h: Zapravo, ne odgovaraj na to.
 
 (#act4_something_else)
 
@@ -852,33 +852,33 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"sad_d" });`
 
-b: I want to make sure you fulfil that deep, human need to belong...
+b: Želim da zadovoljiš tu duboku, ljudsku potrebu da pripadaš...
 
 `bb({ eyes:"sad_u" });`
 
-b: But I worry that if anyone ever knew us – the *real* us – we'd scare them all away.
+b: Ali brinem se da ako nas iko ikada upozna - *prave* nas - napustili bi nas.
 
 `bb({ eyes:"sad" });`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Nemam pojma, dovoljno sam *ja* pričao. Šta *ti* želiš da kažeš, osobo?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Ponovo, tvoj red, osobo. Šta ti misliš?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Još neka misao, osobo?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[I agree: let's work on our social life.](#act4_alone_skills)
+[Slažem se: hajde da poradimo na našem socijalnom životu.](#act4_alone_skills)
 
-[I think people like us. Let's find out?](#act4_alone_experiment)
+[Mislim da nas ljudi vole. Hajde da otkrijemo jel' tako?](#act4_alone_experiment)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "social belonging";`
+[Hvala ti.](#act4_thanks) `_.thanks_for = "moje socijalno pripadanje";`
 
 # act4_alone_skills
 
@@ -887,60 +887,60 @@ bb({ eyes:"normal" });
 hong({ body:"chin" });
 ```
 
-h: We could practice skills like asking questions, listening and empathizing, being open and vulnerable, etc?
+h: Mogli bismo da vežbamo veštine kao što su postavljanje pitanja, slušanje i pokazivanje empatije, da se otvaramo i budemo ranjivi, itd?
 
 `hong({ eyes:"normal_l" });`
 
-h: Or make better social habits, like scheduling time with friends or regularly going to meetups?
+h: Ili da stvorimo bolje socijalne navike, kao što su dogovaranje druženja sa prijateljima ili svakodnevni razgovor sa njima?
 
 `hong({ body:"one_up" });`
 
-h: Could also learn to get more comfortable with rejection.
+h: Mogli bi i da se više navikenemo na odbijanje.
 
 `hong({ eyes:"normal" });`
 
-h: Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
+h: Ili naučimo da shvatimo kada nas ljudi zapravo *ne odbijaju*, nego su samo umorni ili jednostavno imaju takav izraz lica.
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed_r" });
 ```
 
-b: That's a lot of options. But, about "learning social skills"...
+b: Ima dosta opcija. Ali, nešto o "učenju socijalnih veština"...
 
-[Isn't that *manipulative?*](#act4_alone_skills_manipulative)
+[Zar to nije *manipulativno?*](#act4_alone_skills_manipulative)
 
-[Won't that make us *easier to manipulate?*](#act4_alone_skills_manipulated)
+[Znar onda nećemo biti *laki za manipulisanje?*](#act4_alone_skills_manipulated)
 
-[What if we still fail?](#act4_alone_skills_fail)
+[Šta ako ipak ne uspemo?](#act4_alone_skills_fail)
 
 # act4_alone_skills_manipulative
 
 `bb({ eyes:"suspect" });`
 
-b: Aren't serial killers who can read their victims' emotions great at "empathy"?
+b: Zar nisu serijske ubice koje lako čitaju žrtvine emocije dobri u "empatiji"?
 
 `bb({ eyes:"annoyed" });`
 
-b: Didn't Charles Manson win friends and influence people?
+b: Zar nije Čarls Manson imao prijatelje i uticao na ljude?
 
 `hong({ eyes:"annoyed", body:"chin" });`
 
-h: No, you're right.
+h: Ne, u pravu si.
 
-h: "Social skills" mean nothing if we don't genuinely care *for* people.
+h: "Socijalne veštine" su ništa ako te *zapravo* nije briga za ljude.
 
 `hong({ body:"normal" });`
 
-h: Basically, just don't be a ^dick^.
+h: U stvari, samo nemoj biti ^šupak^.
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: That's a motivational poster caption right there.
+b: Kao tekst motivacionog postera.
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
-h: “Don't Be A ^Dick^™”
+h: “Nemoj Biti ^Šupak^™”
 
 (#act4_something_else)
 
@@ -948,29 +948,29 @@ h: “Don't Be A ^Dick^™”
 
 `bb({ eyes:"angry" })`
 
-b: We'll become a Welcome doormat, saying Please and Thank You as people wipe their feet on us!
+b: Postaćemo otirač sa dobrodošlicom, govorićemo Molim te i Hvala dok ljudi brišu noge o nas!
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
-b: We'll kiss so much butt, it'll look like we're wearing brown lipstick!
+b: Uvlačićemo se u toliko guzica da će izgledati kao da smo pocrneli na suncu!
 
 ```
 bb({ mouth:"normal", eyes:"normal" });
 hong( body:"chin" });
 ```
 
-h: Nah, you're right. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
+h: Ne, u pravu si. "Socijalne veštine" nisu samo zadovoljavanje drugih, nego i postavljanje *granica.*
 
 `hong( body:"one_up" });`
 
-h: We can't invite others into our home, if we have no walls to hold up our home.
+h: Ne možemo zvati nekoga kući ako nemamo zidove koji se uzdižu iz temelja.
 
 ```
 hong( eyes:"angry", mouth:"narrow" });
 bb( eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Also... re: that lipstick mental image... *ew??*
+h: Takođe... mentalna slika o uvlačenju... *fuj??*
 
 (#act4_something_else)
 
@@ -978,26 +978,26 @@ h: Also... re: that lipstick mental image... *ew??*
 
 `bb({ eyes:"annoyed" });`
 
-h: We might fail. Actually, we *will* fail.
+h: Možda će biti neuspešno. Zapravo, mi *nećemo* uspeti.
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"surprise", body:"shrug" });
 ```
 
-h: And that's fine! Failing is how anyone learns anything new at first!
+h: I to je u redu! Neuspeh je znak da učimo nešto novo!
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: So let's fail forward together, yeah?
+h: Pa hajde da zajedno ne uspemo, zar ne?
 
 `bb({ eyes:"normal_r" });`
 
-b: Sure, I guess... worst-case scenario, we can just skip town and get a new identity.
+b: Predpostavljam... najgori mogući scenario, preselimo se i imamo novi identitet.
 
 `bb({ eyes:"normal" });`
 
-h: Yeah I think that only costs two bitcoins these days.
+h: Da ovih dana to košta smo dva bitkojna.
 
 (#act4_something_else)
 
@@ -1183,7 +1183,7 @@ b: More thoughts, human?
 
 [So we're broken. Let's accept it.](#act4_bad_accept)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "moral well-being";`
+[Thank you.](#act4_thanks) `_.thanks_for = "moje moralno blagostanje";`
 
 # act4_bad_fix
 
