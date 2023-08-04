@@ -1008,33 +1008,33 @@ hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: We could try some experiments!
+h: Mogli bi da eksperimentišemo!
 
 `hong({ body:"chin" });`
 
-h: We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
+h: Mogli bi da nazovemo prijatelja da se družimo, pričamo sa starim prijateljem, ili čak samo pričamo sa kasirkom.
 
 `hong({ body:"normal" });`
 
-h: I think we may find we're more likeable than we suspect.
+h: Mislim da ćemo otkriti da smo voljeniji nego što nam se čini.
 
 `bb({ eyes:"annoyed" });`
 
-[What if these are small, cheap "wins"?](#act4_alone_experiment_cheap)
+[Šta ako su ovo male, nevažne "pobede"?](#act4_alone_experiment_cheap)
 
-[What if this is a burden to others?](#act4_alone_experiment_burden)
+[Šta ako je ovo teret ostalima?](#act4_alone_experiment_burden)
 
-[But small talk isn't the *real* us!](#act4_alone_experiment_real_us)
+[Ali razgovor o vremenu nismo *pravi* mi!](#act4_alone_experiment_real_us)
 
 # act4_alone_experiment_real_us
 
 `bb({ eyes:"sad" });`
 
-b: If we put on a shallow smile, we'll never really connect with anyone,
+b: Ako se tek tako nasmešimo, nikad se nećemo zaista povezati sa nekim,
 
 `bb({ eyes:"super_sad" });`
 
-b: *But* if we open up, other people will see all our messed-up insides!
+b: *Ali* ako se otvorimo, drugi će videti našu zamršenu unutrašnjost!
 
 `hong({body:"chin", mouth:"narrow", MOUTH_LOCK:true})`
 
@@ -1045,64 +1045,64 @@ hong({body:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: Roll over.
+h: Prevrni se.
 
-b: What.
+b: Šta.
 
 `hong({body:"hands_1"})`
 
-h: When dogs want to show love and trust, they make themselves vulnerable by exposing their belly.
+h: Kada psi žele da pokažu ljubav i poverenje, pokažu svoju ranjivost tako što ti pokažu stomak.
 
 `hong({body:"one_up"})`
 
-h: Maybe we're not *yet* secure enough to be too vulnerable, but with enough training,
+h: Možda se *još* ne osećamo dovoljno sigurno da budemo ranjivi, ali sa dovoljno vežbe,
 
 `hong({body:"normal", eyes:"surprise"})`
 
-h: One day we can show people the real us – all messed-up, all human.
+h: Jednog dana ćemo ljudima pokazati prave nas - zamršenu, ljudsku osobu.
 
 ```
 hong({eyes:"normal"});
 bb({ eyes:"super_sad", mouth:"smile", body:"chest" });
 ```
 
-b: I'll roll over if you give me a treat.
+b: Prevrnuću se ako mi daš poslasticu.
 
 `bb({ eyes:"normal", mouth:"normal" });`
 
-h: No.
+h: Ne.
 
 (#act4_something_else)
 
 
 # act4_alone_experiment_cheap
 
-b: Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
+b: Reći "zdravo" prodavačici nije baš socijalni preformans za zlatnu medalju.
 
 ```
 hong({ body:"point", eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: It is for *us!*
+h: To je za *nas!*
 
 `hong({ body:"one_up", eyes:"annoyed" });`
 
-h: In the social arena, we're not even featherweight class, we're like... quark-weight.
+h: U socijalnoj areni, mi nismo ni klasa težine pera, mi smo više kao... težina kvarka.
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: If we have to start with small, cheap wins, so be it. Gotta climb the 1st step before the 1000th step.
+h: Ako treba da počnemo sa malim, nevažnim pobedama, neka tako bude. Moramo preći prvi stepenik pre hiljaditog.
 
-b: Yeah! Maybe after saying "Hi", we can advance to saying...
+b: Da! Možda posle "Zdravo" možemo da počnemo da govorimo...
 
 `bb({ body:"two_up", mouth:"smile", eyes:"smile_u" });`
 
-b: *"How are you?"*
+b: *"Kako ste?"*
 
 `hong({ body:"shrug", mouth:"smile", eyes:"surprise_l" });`
 
-h: *"Not much!"*
+h: *"Ništa specijalno!"*
 
 (#act4_something_else)
 
@@ -1110,29 +1110,29 @@ h: *"Not much!"*
 
 `bb({ eyes:"suspect_r" })`
 
-b: Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
+b: Možda prodavačica samo hoće da nam naplati, a ne da bude *eksperiment* da vidimo da li imamo socijalne veštine.
 
 `bb({ eyes:"annoyed" })`
 
-h: Well, if it turns out we *are* being a burden...
+h: Pa, ako se ispostavi da *jesmo* teret...
 
 ```
 hong({ eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: That's good to know, too!
+h: Dobro je da to saznamo!
 
 `hong({ eyes:"normal" });`
 
-h: We can then learn how to pro-actively ask people what they're comfortable with, to know and respect others' boundaries.
+h: Onda možemo da naučimo kako da sami shvatimo sa čim su drugi u redu, da znamo i poštujemo tuđe granice.
 
 ```
 hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Y'know, all that "inter-personal skills" ^crap^ we see in counselor brochures.
+h: Znaš, sva ta ^sranja^ o "inter-personalnim veštinama" koje viđamo na brošurama kod školskog psihologa.
 
 (#act4_something_else)
 
@@ -1147,34 +1147,34 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"annoyed_r" })`
 
-b: I want to defend your moral needs, that drive to become a better person,
+b: Želim da odbranim tvoje moralne potrebe koje te guraju da budeš bolja osoba,
 
 `bb({ eyes:"sad_d" })`
 
-b: But it just feels like deep down, we're so fundamentally... broken.
+b: Ali izgleda mi kao da smo duboko dole samo, u osnovi... oštećeni.
 
 `bb({ body:"two_up", eyes:"angry" })`
 
 {{if _.INJURED}}
-b: And don't tell me we're *not* messed up. We jumped off a *roof*.
+b: I nemoj mi reći da *nismo* zamršeni. Skočili smo sa *krova*.
 {{/if}}
 
 {{if !_.INJURED}}
-b: And don't tell me we're *not* messed up. We almost jumped off a *roof*.
+b: I nemoj mi reći da *nismo* zamršeni. Zamalo smo skočili sa *krova*.
 {{/if}}
 
 `bb({ body:"normal", eyes:"sad" })`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Nemam pojma, dovoljno sam *ja* pričao. Šta *ti* želiš da kažeš, osobo?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Ponovo, tvoj red, osobo. Šta ti misliš?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Još neka misao, osobo?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
